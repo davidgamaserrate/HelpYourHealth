@@ -1,0 +1,443 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2F85708F7B487784265C28A5 /* Pods_HelpYourHealth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A9A77BCCA42B12064589363 /* Pods_HelpYourHealth.framework */; };
+		4CB7A6CD2336FDF900BB66F1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CB7A6CC2336FDF900BB66F1 /* AppDelegate.swift */; };
+		4CB7A6CF2336FDF900BB66F1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CB7A6CE2336FDF900BB66F1 /* SceneDelegate.swift */; };
+		4CB7A6D42336FDF900BB66F1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4CB7A6D22336FDF900BB66F1 /* Main.storyboard */; };
+		4CB7A6D62336FDFE00BB66F1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4CB7A6D52336FDFE00BB66F1 /* Assets.xcassets */; };
+		4CB7A6D92336FDFE00BB66F1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4CB7A6D72336FDFE00BB66F1 /* LaunchScreen.storyboard */; };
+		4CB7A6E123370CF100BB66F1 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4CB7A6E023370CF100BB66F1 /* GoogleService-Info.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4CB7A6C92336FDF900BB66F1 /* HelpYourHealth.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelpYourHealth.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4CB7A6CC2336FDF900BB66F1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4CB7A6CE2336FDF900BB66F1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		4CB7A6D32336FDF900BB66F1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4CB7A6D52336FDFE00BB66F1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4CB7A6D82336FDFE00BB66F1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4CB7A6DA2336FDFE00BB66F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4CB7A6E023370CF100BB66F1 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		4CFDE38B233716580011C258 /* HelpYourHealth.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = HelpYourHealth.entitlements; sourceTree = "<group>"; };
+		6A9A77BCCA42B12064589363 /* Pods_HelpYourHealth.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HelpYourHealth.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7B8D4E20E5697A95F0882065 /* Pods-HelpYourHealth.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HelpYourHealth.debug.xcconfig"; path = "Target Support Files/Pods-HelpYourHealth/Pods-HelpYourHealth.debug.xcconfig"; sourceTree = "<group>"; };
+		E8C5146F010C276306D62290 /* Pods-HelpYourHealth.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HelpYourHealth.release.xcconfig"; path = "Target Support Files/Pods-HelpYourHealth/Pods-HelpYourHealth.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4CB7A6C62336FDF900BB66F1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F85708F7B487784265C28A5 /* Pods_HelpYourHealth.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1803B81A0E268EDD98EB00A8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6A9A77BCCA42B12064589363 /* Pods_HelpYourHealth.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4CB7A6C02336FDF900BB66F1 = {
+			isa = PBXGroup;
+			children = (
+				4CB7A6CB2336FDF900BB66F1 /* HelpYourHealth */,
+				4CB7A6CA2336FDF900BB66F1 /* Products */,
+				867C4CFFAF3B3F1602D1BFA1 /* Pods */,
+				1803B81A0E268EDD98EB00A8 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		4CB7A6CA2336FDF900BB66F1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4CB7A6C92336FDF900BB66F1 /* HelpYourHealth.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4CB7A6CB2336FDF900BB66F1 /* HelpYourHealth */ = {
+			isa = PBXGroup;
+			children = (
+				4CFDE38B233716580011C258 /* HelpYourHealth.entitlements */,
+				4CFDE38C23371D130011C258 /* Controller */,
+				4CFDE38D23371D270011C258 /* Delegate */,
+				4CFDE38E23371D530011C258 /* Storyboard */,
+				4CB7A6D52336FDFE00BB66F1 /* Assets.xcassets */,
+				4CB7A6DA2336FDFE00BB66F1 /* Info.plist */,
+				4CB7A6E023370CF100BB66F1 /* GoogleService-Info.plist */,
+			);
+			path = HelpYourHealth;
+			sourceTree = "<group>";
+		};
+		4CFDE38C23371D130011C258 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		4CFDE38D23371D270011C258 /* Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				4CB7A6CC2336FDF900BB66F1 /* AppDelegate.swift */,
+				4CB7A6CE2336FDF900BB66F1 /* SceneDelegate.swift */,
+			);
+			path = Delegate;
+			sourceTree = "<group>";
+		};
+		4CFDE38E23371D530011C258 /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				4CB7A6D22336FDF900BB66F1 /* Main.storyboard */,
+				4CB7A6D72336FDFE00BB66F1 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		867C4CFFAF3B3F1602D1BFA1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7B8D4E20E5697A95F0882065 /* Pods-HelpYourHealth.debug.xcconfig */,
+				E8C5146F010C276306D62290 /* Pods-HelpYourHealth.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4CB7A6C82336FDF900BB66F1 /* HelpYourHealth */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4CB7A6DD2336FDFE00BB66F1 /* Build configuration list for PBXNativeTarget "HelpYourHealth" */;
+			buildPhases = (
+				15B354C8232CE4EC7362619C /* [CP] Check Pods Manifest.lock */,
+				4CB7A6C52336FDF900BB66F1 /* Sources */,
+				4CB7A6C62336FDF900BB66F1 /* Frameworks */,
+				4CB7A6C72336FDF900BB66F1 /* Resources */,
+				A347B9B37E6326DB3619CE5E /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HelpYourHealth;
+			productName = HelpYourHealth;
+			productReference = 4CB7A6C92336FDF900BB66F1 /* HelpYourHealth.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4CB7A6C12336FDF900BB66F1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+				ORGANIZATIONNAME = "Rafael Escaleira";
+				TargetAttributes = {
+					4CB7A6C82336FDF900BB66F1 = {
+						CreatedOnToolsVersion = 11.0;
+					};
+				};
+			};
+			buildConfigurationList = 4CB7A6C42336FDF900BB66F1 /* Build configuration list for PBXProject "HelpYourHealth" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4CB7A6C02336FDF900BB66F1;
+			productRefGroup = 4CB7A6CA2336FDF900BB66F1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4CB7A6C82336FDF900BB66F1 /* HelpYourHealth */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4CB7A6C72336FDF900BB66F1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CB7A6D92336FDFE00BB66F1 /* LaunchScreen.storyboard in Resources */,
+				4CB7A6E123370CF100BB66F1 /* GoogleService-Info.plist in Resources */,
+				4CB7A6D62336FDFE00BB66F1 /* Assets.xcassets in Resources */,
+				4CB7A6D42336FDF900BB66F1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		15B354C8232CE4EC7362619C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HelpYourHealth-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A347B9B37E6326DB3619CE5E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HelpYourHealth/Pods-HelpYourHealth-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HelpYourHealth/Pods-HelpYourHealth-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-HelpYourHealth/Pods-HelpYourHealth-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4CB7A6C52336FDF900BB66F1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CB7A6CD2336FDF900BB66F1 /* AppDelegate.swift in Sources */,
+				4CB7A6CF2336FDF900BB66F1 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4CB7A6D22336FDF900BB66F1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4CB7A6D32336FDF900BB66F1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4CB7A6D72336FDFE00BB66F1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4CB7A6D82336FDFE00BB66F1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4CB7A6DB2336FDFE00BB66F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = "";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4CB7A6DC2336FDFE00BB66F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				OTHER_LDFLAGS = "";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4CB7A6DE2336FDFE00BB66F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7B8D4E20E5697A95F0882065 /* Pods-HelpYourHealth.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = HelpYourHealth/HelpYourHealth.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2F63WJ279Y;
+				INFOPLIST_FILE = HelpYourHealth/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.helpyourhealth.HelpYourHealth;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4CB7A6DF2336FDFE00BB66F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E8C5146F010C276306D62290 /* Pods-HelpYourHealth.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = HelpYourHealth/HelpYourHealth.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2F63WJ279Y;
+				INFOPLIST_FILE = HelpYourHealth/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.helpyourhealth.HelpYourHealth;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4CB7A6C42336FDF900BB66F1 /* Build configuration list for PBXProject "HelpYourHealth" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4CB7A6DB2336FDFE00BB66F1 /* Debug */,
+				4CB7A6DC2336FDFE00BB66F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4CB7A6DD2336FDFE00BB66F1 /* Build configuration list for PBXNativeTarget "HelpYourHealth" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4CB7A6DE2336FDFE00BB66F1 /* Debug */,
+				4CB7A6DF2336FDFE00BB66F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4CB7A6C12336FDF900BB66F1 /* Project object */;
+}
