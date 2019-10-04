@@ -14,6 +14,10 @@
 		4CB7A6D62336FDFE00BB66F1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4CB7A6D52336FDFE00BB66F1 /* Assets.xcassets */; };
 		4CB7A6D92336FDFE00BB66F1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4CB7A6D72336FDFE00BB66F1 /* LaunchScreen.storyboard */; };
 		4CB7A6E123370CF100BB66F1 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4CB7A6E023370CF100BB66F1 /* GoogleService-Info.plist */; };
+		4CB7C1B3234795DF006656D4 /* MyPatientViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CB7C1B2234795DF006656D4 /* MyPatientViewController.swift */; };
+		4CB7C1B52347A9A6006656D4 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CB7C1B42347A9A6006656D4 /* ProfileViewController.swift */; };
+		4CB7C1B82347A9DC006656D4 /* UIViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CB7C1B72347A9DC006656D4 /* UIViewExtension.swift */; };
+		4CFC33E42347DCFE0047AA4D /* PatientAreaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CFC33E32347DCFE0047AA4D /* PatientAreaViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +29,10 @@
 		4CB7A6D82336FDFE00BB66F1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4CB7A6DA2336FDFE00BB66F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4CB7A6E023370CF100BB66F1 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		4CB7C1B2234795DF006656D4 /* MyPatientViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyPatientViewController.swift; sourceTree = "<group>"; };
+		4CB7C1B42347A9A6006656D4 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		4CB7C1B72347A9DC006656D4 /* UIViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewExtension.swift; sourceTree = "<group>"; };
+		4CFC33E32347DCFE0047AA4D /* PatientAreaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatientAreaViewController.swift; sourceTree = "<group>"; };
 		4CFDE38B233716580011C258 /* HelpYourHealth.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = HelpYourHealth.entitlements; sourceTree = "<group>"; };
 		6A9A77BCCA42B12064589363 /* Pods_HelpYourHealth.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HelpYourHealth.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7B8D4E20E5697A95F0882065 /* Pods-HelpYourHealth.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HelpYourHealth.debug.xcconfig"; path = "Target Support Files/Pods-HelpYourHealth/Pods-HelpYourHealth.debug.xcconfig"; sourceTree = "<group>"; };
@@ -73,6 +81,7 @@
 			isa = PBXGroup;
 			children = (
 				4CFDE38B233716580011C258 /* HelpYourHealth.entitlements */,
+				4CB7C1B62347A9C1006656D4 /* Extension */,
 				4CFDE38C23371D130011C258 /* Controller */,
 				4CFDE38D23371D270011C258 /* Delegate */,
 				4CFDE38E23371D530011C258 /* Storyboard */,
@@ -83,9 +92,36 @@
 			path = HelpYourHealth;
 			sourceTree = "<group>";
 		};
+		4CB7C1B023479597006656D4 /* Doctor */ = {
+			isa = PBXGroup;
+			children = (
+				4CB7C1B2234795DF006656D4 /* MyPatientViewController.swift */,
+				4CB7C1B42347A9A6006656D4 /* ProfileViewController.swift */,
+				4CFC33E32347DCFE0047AA4D /* PatientAreaViewController.swift */,
+			);
+			path = Doctor;
+			sourceTree = "<group>";
+		};
+		4CB7C1B1234795BA006656D4 /* Patient */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Patient;
+			sourceTree = "<group>";
+		};
+		4CB7C1B62347A9C1006656D4 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				4CB7C1B72347A9DC006656D4 /* UIViewExtension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
 		4CFDE38C23371D130011C258 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				4CB7C1B1234795BA006656D4 /* Patient */,
+				4CB7C1B023479597006656D4 /* Doctor */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -233,7 +269,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4CB7C1B82347A9DC006656D4 /* UIViewExtension.swift in Sources */,
+				4CFC33E42347DCFE0047AA4D /* PatientAreaViewController.swift in Sources */,
+				4CB7C1B3234795DF006656D4 /* MyPatientViewController.swift in Sources */,
 				4CB7A6CD2336FDF900BB66F1 /* AppDelegate.swift in Sources */,
+				4CB7C1B52347A9A6006656D4 /* ProfileViewController.swift in Sources */,
 				4CB7A6CF2336FDF900BB66F1 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

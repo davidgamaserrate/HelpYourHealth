@@ -12,5 +12,6 @@ target 'HelpYourHealth' do
   pod 'Firebase/Analytics'
   pod 'Firebase/Messaging'
   pod 'Firebase/Auth'
+  pod 'Blueprints'
 
 end
