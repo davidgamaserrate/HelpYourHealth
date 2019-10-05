@@ -7,11 +7,12 @@
 //
 
 import UIKit
+import Blueprints
 
 class MyPatientViewController: UIViewController {
 
     @IBOutlet weak var searchBar: UISearchBar!
-    @IBOutlet weak var tableView: UITableView!
+    @IBOutlet weak var collectionView: UICollectionView!
     
     var names: [String] = ["Murilo Arelhano", "Rafael Escaleira", "Mariane Mori"]
     var ages: [String] = ["17", "20", "18"]
@@ -21,22 +22,29 @@ class MyPatientViewController: UIViewController {
         super.viewDidLoad()
         
         self.searchBar.backgroundImage = UIImage()
-        self.tableView.contentInset = UIEdgeInsets(top: 0, left: 0, bottom: 15, right: 0)
+    }
+    
+    override func viewDidLayoutSubviews() {
+        super.viewDidLayoutSubviews()
+        
+        let width = self.collectionView.frame.width
+        
+        let layout = VerticalBlueprintLayout(itemsPerRow: (width / 335).rounded(), height: 160, minimumInteritemSpacing: 10, minimumLineSpacing: 10, sectionInset: UIEdgeInsets(top: 0, left: 20, bottom: 20, right: 20), stickyHeaders: false, stickyFooters: false)
+        self.collectionView.collectionViewLayout = layout
     }
 }
 
-extension MyPatientViewController: UITableViewDelegate, UITableViewDataSource {
+extension MyPatientViewController: UICollectionViewDelegate, UICollectionViewDataSource {
     
-    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+    func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
         
         return self.names.count
     }
     
-    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+    func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         
-        guard let cell = tableView.dequeueReusableCell(withIdentifier: "MyPatientTableViewCell", for: indexPath) as? MyPatientTableViewCell else { return UITableViewCell() }
+        guard let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "MyPatientCollectionViewCell", for: indexPath) as? MyPatientCollectionViewCell else { return UICollectionViewCell() }
         
-        cell.selectionStyle = .none
         cell.nameLabel.text = self.names[indexPath.row]
         cell.ageLabel.text = self.ages[indexPath.row]
         cell.phoneLabel.text = self.phones[indexPath.row]
@@ -45,7 +53,7 @@ extension MyPatientViewController: UITableViewDelegate, UITableViewDataSource {
     }
 }
 
-public class MyPatientTableViewCell: UITableViewCell {
+public class MyPatientCollectionViewCell: UICollectionViewCell {
     
     @IBOutlet weak var nameLabel: UILabel!
     @IBOutlet weak var ageLabel: UILabel!
@@ -53,4 +61,5 @@ public class MyPatientTableViewCell: UITableViewCell {
     @IBOutlet weak var profileImage: UIImageView!
     @IBOutlet weak var callButton: UIButton!
     @IBOutlet weak var emailButton: UIButton!
+    @IBOutlet weak var aboutButton: UIButton!
 }
