@@ -19,11 +19,11 @@
 <p align="center">
   <img src="Assets/1.png" width="300" />
   <img src="Assets/1.1.png" width="300" />
-  <img src="Assets/2.png" width="300" />
-  <img src="Assets/2.1.png" width="300" />
+  <img src="Assets/2.png" width="600" />
+  <img src="Assets/2.1.png" width="600" />
   <img src="Assets/3.png" width="300" />
   <img src="Assets/3.1.png" width="300" />
-  <img src="Assets/4.png" width="300" />
-  <img src="Assets/4.1.png" width="300" />
+  <img src="Assets/4.png" width="600" />
+  <img src="Assets/4.1.png" width="600" />
 </a>
 </p>
