@@ -30,5 +30,5 @@ Execução de Dados Pessoais
 --------------------------
 
 <p align="center">
-![grab-landing-page](https://github.com/rafaelescaleira/HelpYourHealth/blob/master/Assets/DadosPessoaisGif.gif)
+<img src="Assets/DadosPessoaisGif.gif" width="40%"/>
 </p>
