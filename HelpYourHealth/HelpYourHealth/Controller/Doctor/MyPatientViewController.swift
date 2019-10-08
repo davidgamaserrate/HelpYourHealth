@@ -24,6 +24,12 @@ class MyPatientViewController: UIViewController {
         self.searchBar.backgroundImage = UIImage()
     }
     
+    override func viewDidAppear(_ animated: Bool) {
+        super.viewDidAppear(true)
+        
+        self.navigationController?.setNavigationBarHidden(true, animated: false)
+    }
+    
     override func viewDidLayoutSubviews() {
         super.viewDidLayoutSubviews()
         
@@ -31,6 +37,11 @@ class MyPatientViewController: UIViewController {
         
         let layout = VerticalBlueprintLayout(itemsPerRow: (width / 335).rounded(), height: 160, minimumInteritemSpacing: 10, minimumLineSpacing: 10, sectionInset: UIEdgeInsets(top: 0, left: 20, bottom: 20, right: 20), stickyHeaders: false, stickyFooters: false)
         self.collectionView.collectionViewLayout = layout
+        
+        DispatchQueue.main.asyncAfter(deadline: DispatchTime.now()) {
+            
+            self.collectionView.scrollToItem(at: IndexPath(item: 0, section: 0), at: .top, animated: true)
+        }
     }
 }
 

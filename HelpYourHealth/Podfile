@@ -13,5 +13,7 @@ target 'HelpYourHealth' do
   pod 'Firebase/Messaging'
   pod 'Firebase/Auth'
   pod 'Blueprints'
+  pod 'CenteredCollectionView'
+  pod 'M13Checkbox'
 
 end

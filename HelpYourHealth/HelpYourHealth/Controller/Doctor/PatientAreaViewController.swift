@@ -9,7 +9,7 @@
 import UIKit
 import Blueprints
 
-class PatientAreaViewController: UIViewController {
+class PatientAreaViewController: UIViewController, UIGestureRecognizerDelegate, UINavigationControllerDelegate {
     
     @IBOutlet weak var collectionView: UICollectionView!
     
@@ -21,16 +21,38 @@ class PatientAreaViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        
     }
     
-    override func viewWillLayoutSubviews() {
-        super.viewWillLayoutSubviews()
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(true)
+        
+        self.navigationController?.interactivePopGestureRecognizer?.delegate = self
+        self.navigationController?.interactivePopGestureRecognizer?.isEnabled = true
+    }
+    
+    @IBAction func backButtonAction() { self.navigationController?.popViewController(animated: true) }
+    
+    func gestureRecognizerShouldBegin(_ gestureRecognizer: UIGestureRecognizer) -> Bool {
+
+        if gestureRecognizer == self.navigationController?.interactivePopGestureRecognizer {
+            return true
+        }
+        
+        return false
+    }
+    
+    override func viewDidLayoutSubviews() {
+        super.viewDidLayoutSubviews()
         
         let width = self.collectionView.frame.width
         
-        let layout = VerticalBlueprintLayout(itemsPerRow: (width / 162).rounded(), height: 185, minimumInteritemSpacing: 10, minimumLineSpacing: 10, sectionInset: UIEdgeInsets(top: 0, left: 20, bottom: 20, right: 20), stickyHeaders: false, stickyFooters: false)
+        let layout = VerticalBlueprintLayout(itemsPerRow: (width / 162).rounded(.down), height: 185, minimumInteritemSpacing: 10, minimumLineSpacing: 10, sectionInset: UIEdgeInsets(top: 0, left: 20, bottom: 20, right: 20), stickyHeaders: false, stickyFooters: false)
         self.collectionView.collectionViewLayout = layout
+        
+        DispatchQueue.main.asyncAfter(deadline: DispatchTime.now()) {
+            
+            self.collectionView.scrollToItem(at: IndexPath(item: 0, section: 0), at: .top, animated: true)
+        }
     }
 }
 
@@ -51,6 +73,14 @@ extension PatientAreaViewController: UICollectionViewDelegate, UICollectionViewD
         cell.imageFunc.tintColor = self.colors[indexPath.row]
         
         return cell
+    }
+    
+    func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
+        
+        if indexPath.row == 0 {
+            
+            DispatchQueue.main.async { self.performSegue(withIdentifier: "HistoricViewController", sender: self) }
+        }
     }
 }
 
