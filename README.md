@@ -30,5 +30,5 @@ Execução de Dados Pessoais
 --------------------------
 
 <p align="center">
-<img src="Assets/DadosPessoaisGif.gif" width="40%"/>
+<img src="Assets/DadosPessoaisGif.gif" width="100%"/>
 </p>
