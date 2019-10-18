@@ -41,7 +41,7 @@
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Pediátra" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jQF-Yc-Ri8">
                                         <rect key="frame" x="15" y="111.5" width="354" height="20.5"/>
                                         <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
-                                        <color key="textColor" systemColor="secondaryLabelColor" red="0.23529411764705882" green="0.23529411764705882" blue="0.2627450980392157" alpha="0.59999999999999998" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <color key="textColor" systemColor="secondaryLabelColor" red="0.23529411759999999" green="0.23529411759999999" blue="0.26274509800000001" alpha="0.59999999999999998" colorSpace="custom" customColorSpace="sRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="maM-e7-fj2">
@@ -51,9 +51,9 @@
                                             <constraint firstAttribute="height" constant="35" id="eH9-gd-lLk"/>
                                         </constraints>
                                         <fontDescription key="fontDescription" type="boldSystem" pointSize="13"/>
-                                        <color key="tintColor" systemColor="systemPinkColor" red="1" green="0.17647058823529413" blue="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <color key="tintColor" systemColor="systemPinkColor" red="1" green="0.1764705882" blue="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <state key="normal" image="phone.fill.arrow.up.right" catalog="system">
-                                            <color key="titleColor" systemColor="systemPinkColor" red="1" green="0.17647058823529413" blue="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <color key="titleColor" systemColor="systemPinkColor" red="1" green="0.1764705882" blue="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                             <preferredSymbolConfiguration key="preferredSymbolConfiguration" scale="large" weight="medium"/>
                                         </state>
                                         <userDefinedRuntimeAttributes>
@@ -66,9 +66,9 @@
                                         <rect key="frame" x="254.5" y="152" width="109.5" height="35"/>
                                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                                         <fontDescription key="fontDescription" type="boldSystem" pointSize="13"/>
-                                        <color key="tintColor" systemColor="systemPinkColor" red="1" green="0.17647058823529413" blue="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <color key="tintColor" systemColor="systemPinkColor" red="1" green="0.1764705882" blue="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <state key="normal" image="qrcode" catalog="system">
-                                            <color key="titleColor" systemColor="systemPinkColor" red="1" green="0.17647058823529413" blue="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <color key="titleColor" systemColor="systemPinkColor" red="1" green="0.1764705882" blue="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                             <preferredSymbolConfiguration key="preferredSymbolConfiguration" scale="large" weight="bold"/>
                                         </state>
                                         <userDefinedRuntimeAttributes>
@@ -81,9 +81,9 @@
                                         <rect key="frame" x="137.5" y="152" width="109" height="35"/>
                                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                                         <fontDescription key="fontDescription" type="boldSystem" pointSize="13"/>
-                                        <color key="tintColor" systemColor="systemPinkColor" red="1" green="0.17647058823529413" blue="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <color key="tintColor" systemColor="systemPinkColor" red="1" green="0.1764705882" blue="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <state key="normal" image="bell.fill" catalog="system">
-                                            <color key="titleColor" systemColor="systemPinkColor" red="1" green="0.17647058823529413" blue="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <color key="titleColor" systemColor="systemPinkColor" red="1" green="0.1764705882" blue="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                             <preferredSymbolConfiguration key="preferredSymbolConfiguration" scale="medium"/>
                                         </state>
                                         <userDefinedRuntimeAttributes>
@@ -93,7 +93,7 @@
                                         </userDefinedRuntimeAttributes>
                                     </button>
                                 </subviews>
-                                <color key="backgroundColor" systemColor="secondarySystemBackgroundColor" red="0.94901960784313721" green="0.94901960784313721" blue="0.96862745098039216" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="backgroundColor" systemColor="secondarySystemBackgroundColor" red="0.94901960780000005" green="0.94901960780000005" blue="0.96862745100000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstItem="PgD-sv-PWR" firstAttribute="height" secondItem="maM-e7-fj2" secondAttribute="height" id="5lr-QU-6sR"/>
                                     <constraint firstItem="dc9-lh-DjP" firstAttribute="height" secondItem="maM-e7-fj2" secondAttribute="height" id="BAw-as-zbm"/>
@@ -142,7 +142,7 @@
                         <viewLayoutGuide key="safeArea" id="Mty-Le-kv2"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Perfil" image="person.crop.circle" catalog="system" id="n6e-pm-bkc">
-                        <color key="badgeColor" systemColor="systemPinkColor" red="1" green="0.17647058823529413" blue="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="badgeColor" systemColor="systemPinkColor" red="1" green="0.1764705882" blue="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </tabBarItem>
                     <connections>
                         <outlet property="backgroundImage" destination="FVk-N8-mJd" id="ufx-nN-8bW"/>
@@ -152,25 +152,82 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="O9p-a3-Fii" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1250.7246376811595" y="756.69642857142856"/>
+            <point key="canvasLocation" x="1112" y="757"/>
         </scene>
         <!--Agenda-->
         <scene sceneID="UNg-TD-2Na">
             <objects>
-                <viewController id="Rjl-HS-OQJ" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="ScheduleViewController" id="Rjl-HS-OQJ" customClass="ScheduleViewController" customModule="HelpYourHealth" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="auv-Mt-scb">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Help Your Health" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tMy-gU-kqg">
+                                <rect key="frame" x="20" y="64" width="334" height="36"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="30"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GgN-y4-agQ">
+                                <rect key="frame" x="20" y="110" width="374" height="251"/>
+                                <string key="text">Oferecer serviços de Integração de Informações Clínicas sobre o paciente com agilidade e baixo custo, agregando valor e inovação ao setor da saúde e respeitando a privacidade de nossos clientes, com intuito de agilizar consultas, organizar documentos e possibilitar a visualização dos mesmos pelos médicos sem necessidade de carregar tais documentos fisicamente. Criar prontuários que podem ser lidos por outros médicos para ajudar em diagnósticos e acompanhar informações mais atualizadas dos paciente. Acompanhar sintomas descritos pelos pacientes para observar os tratamentos, facilitando e agilizando o trabalho na área da saúde.</string>
+                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="15"/>
+                                <color key="textColor" systemColor="secondaryLabelColor" red="0.23529411759999999" green="0.23529411759999999" blue="0.26274509800000001" alpha="0.59999999999999998" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aj2-Je-CVo">
+                                <rect key="frame" x="50" y="411" width="314" height="55"/>
+                                <color key="backgroundColor" systemColor="systemPinkColor" red="1" green="0.1764705882" blue="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="55" id="Xrq-J9-18K"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" weight="black" pointSize="15"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" title="   ACESSAR O SITE" image="globe" catalog="system">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <preferredSymbolConfiguration key="preferredSymbolConfiguration" scale="large" weight="bold"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="15"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="websiteAction" destination="Rjl-HS-OQJ" eventType="touchUpInside" id="rb6-6D-vpz"/>
+                                </connections>
+                            </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo.pink" translatesAutoresizingMaskIntoConstraints="NO" id="bDL-yy-lJb">
+                                <rect key="frame" x="364" y="67" width="30" height="30"/>
+                                <color key="tintColor" systemColor="systemPinkColor" red="1" green="0.1764705882" blue="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="bDL-yy-lJb" secondAttribute="height" multiplier="1:1" id="rSx-an-nnr"/>
+                                    <constraint firstAttribute="width" constant="30" id="vY0-6N-Zj7"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="jOq-Rv-V3J" firstAttribute="trailing" secondItem="GgN-y4-agQ" secondAttribute="trailing" constant="20" id="1ee-Dq-SOo"/>
+                            <constraint firstItem="tMy-gU-kqg" firstAttribute="leading" secondItem="jOq-Rv-V3J" secondAttribute="leading" constant="20" id="1eu-iV-W3G"/>
+                            <constraint firstItem="bDL-yy-lJb" firstAttribute="centerY" secondItem="tMy-gU-kqg" secondAttribute="centerY" id="AtG-Ie-ImG"/>
+                            <constraint firstItem="tMy-gU-kqg" firstAttribute="top" secondItem="jOq-Rv-V3J" secondAttribute="top" constant="20" id="T7q-VO-rcD"/>
+                            <constraint firstItem="jOq-Rv-V3J" firstAttribute="trailing" secondItem="aj2-Je-CVo" secondAttribute="trailing" constant="50" id="aZ8-t1-vGb"/>
+                            <constraint firstItem="aj2-Je-CVo" firstAttribute="leading" secondItem="jOq-Rv-V3J" secondAttribute="leading" constant="50" id="d0d-rB-BmE"/>
+                            <constraint firstItem="bDL-yy-lJb" firstAttribute="leading" secondItem="tMy-gU-kqg" secondAttribute="trailing" constant="10" id="dwf-HO-Nzv"/>
+                            <constraint firstItem="GgN-y4-agQ" firstAttribute="top" secondItem="tMy-gU-kqg" secondAttribute="bottom" constant="10" id="laJ-W7-GxS"/>
+                            <constraint firstItem="GgN-y4-agQ" firstAttribute="leading" secondItem="jOq-Rv-V3J" secondAttribute="leading" constant="20" id="sbq-wv-pPa"/>
+                            <constraint firstItem="aj2-Je-CVo" firstAttribute="top" secondItem="GgN-y4-agQ" secondAttribute="bottom" constant="50" id="wK7-l7-R37"/>
+                            <constraint firstItem="jOq-Rv-V3J" firstAttribute="trailing" secondItem="bDL-yy-lJb" secondAttribute="trailing" constant="20" id="y36-fp-ulb"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="jOq-Rv-V3J"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Agenda" image="calendar" catalog="system" id="RjO-GW-sTx">
-                        <color key="badgeColor" systemColor="systemPinkColor" red="1" green="0.17647058823529413" blue="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="badgeColor" systemColor="systemPinkColor" red="1" green="0.1764705882" blue="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </tabBarItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="UTe-Eg-swu" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2023.1884057971015" y="756.69642857142856"/>
+            <point key="canvasLocation" x="1892.753623188406" y="756.69642857142856"/>
         </scene>
         <!--Patient Area View Controller-->
         <scene sceneID="mWb-rx-oyb">
@@ -188,7 +245,7 @@
                             </label>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="murilo.arelhano" translatesAutoresizingMaskIntoConstraints="NO" id="fSH-8j-Qj7">
                                 <rect key="frame" x="40" y="108" width="50" height="50"/>
-                                <color key="tintColor" systemColor="separatorColor" red="0.23529411764705882" green="0.23529411764705882" blue="0.2627450980392157" alpha="0.28999999999999998" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="tintColor" systemColor="separatorColor" red="0.23529411759999999" green="0.23529411759999999" blue="0.26274509800000001" alpha="0.28999999999999998" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="50" id="alC-6D-J62"/>
                                     <constraint firstAttribute="width" constant="50" id="w0H-Ob-2cP"/>
@@ -202,7 +259,7 @@
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="(67) 98231-5832" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8TY-SX-vQA">
                                 <rect key="frame" x="100" y="144" width="294" height="20.5"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" systemColor="secondaryLabelColor" red="0.23529411764705882" green="0.23529411764705882" blue="0.2627450980392157" alpha="0.59999999999999998" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="textColor" systemColor="secondaryLabelColor" red="0.23529411759999999" green="0.23529411759999999" blue="0.26274509800000001" alpha="0.59999999999999998" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="fES-E1-rmL">
@@ -238,7 +295,7 @@
                                                     <rect key="frame" x="15" y="113" width="180" height="47"/>
                                                     <string key="text">Essa funcionalidade cria um histórico médico que pode ser atualizado constantemente e facilmente visualizado. Permitindo que cada um de seus médicos possam ler e atualizar sem a necessidade de refaze-lo como em uma folha impressa.</string>
                                                     <fontDescription key="fontDescription" type="system" weight="medium" pointSize="13"/>
-                                                    <color key="textColor" systemColor="secondaryLabelColor" red="0.23529411764705882" green="0.23529411764705882" blue="0.2627450980392157" alpha="0.59999999999999998" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    <color key="textColor" systemColor="secondaryLabelColor" red="0.23529411759999999" green="0.23529411759999999" blue="0.26274509800000001" alpha="0.59999999999999998" colorSpace="custom" customColorSpace="sRGB"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                             </subviews>
@@ -255,7 +312,7 @@
                                                 <constraint firstItem="jpN-aQ-ML3" firstAttribute="leading" secondItem="4uy-Tk-wPc" secondAttribute="leading" constant="15" id="ydy-Qd-zFO"/>
                                             </constraints>
                                         </collectionViewCellContentView>
-                                        <color key="backgroundColor" systemColor="secondarySystemBackgroundColor" red="0.94901960784313721" green="0.94901960784313721" blue="0.96862745098039216" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <color key="backgroundColor" systemColor="secondarySystemBackgroundColor" red="0.94901960780000005" green="0.94901960780000005" blue="0.96862745100000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <size key="customSize" width="210" height="224"/>
                                         <userDefinedRuntimeAttributes>
                                             <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
@@ -277,7 +334,7 @@
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Nessa aba é possível visualizar, editar e adicionar documentos e lembretes ao seu paciente" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8OV-C2-kGg">
                                 <rect key="frame" x="20" y="169.5" width="374" height="36"/>
                                 <fontDescription key="fontDescription" type="system" weight="medium" pointSize="15"/>
-                                <color key="textColor" systemColor="secondaryLabelColor" red="0.23529411764705882" green="0.23529411764705882" blue="0.2627450980392157" alpha="0.59999999999999998" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="textColor" systemColor="secondaryLabelColor" red="0.23529411759999999" green="0.23529411759999999" blue="0.26274509800000001" alpha="0.59999999999999998" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CUl-Zg-7B1">
@@ -285,7 +342,7 @@
                                 <constraints>
                                     <constraint firstAttribute="width" constant="35" id="b9w-ac-yAO"/>
                                 </constraints>
-                                <color key="tintColor" systemColor="systemPinkColor" red="1" green="0.17647058823529413" blue="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="tintColor" systemColor="systemPinkColor" red="1" green="0.1764705882" blue="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" image="chevron.left" catalog="system"/>
                                 <connections>
                                     <action selector="backButtonAction" destination="NDk-iw-F87" eventType="touchUpInside" id="9AV-ek-Srm"/>
@@ -319,6 +376,7 @@
                     <connections>
                         <outlet property="collectionView" destination="fES-E1-rmL" id="Heu-F8-AsO"/>
                         <segue destination="Fqd-qs-KIU" kind="show" identifier="HistoricViewController" id="hIS-N9-3dZ"/>
+                        <segue destination="ATO-D5-7GW" kind="show" identifier="MedicinesViewController" id="RfP-8o-oxz"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="okb-zQ-lZp" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -350,7 +408,7 @@
                                                 <subviews>
                                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="person.crop.circle" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="CYc-r5-siN">
                                                         <rect key="frame" x="5" y="12.5" width="40" height="26"/>
-                                                        <color key="tintColor" systemColor="systemPinkColor" red="1" green="0.17647058823529413" blue="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                        <color key="tintColor" systemColor="systemPinkColor" red="1" green="0.1764705882" blue="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                         <constraints>
                                                             <constraint firstAttribute="width" constant="40" id="hQd-Da-htb"/>
                                                         </constraints>
@@ -398,7 +456,7 @@
                                                 <subviews>
                                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="calendar" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="IeX-AC-Sef">
                                                         <rect key="frame" x="5" y="12.5" width="40" height="24.5"/>
-                                                        <color key="tintColor" systemColor="systemPinkColor" red="1" green="0.17647058823529413" blue="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                        <color key="tintColor" systemColor="systemPinkColor" red="1" green="0.1764705882" blue="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                         <constraints>
                                                             <constraint firstAttribute="width" constant="40" id="vMW-yW-aEL"/>
                                                         </constraints>
@@ -554,7 +612,7 @@
                                                             <constraint firstAttribute="height" constant="25" id="ZBB-IJ-qa0"/>
                                                             <constraint firstAttribute="width" constant="25" id="kfz-49-ySJ"/>
                                                         </constraints>
-                                                        <color key="tintColor" systemColor="systemPinkColor" red="1" green="0.17647058823529413" blue="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                        <color key="tintColor" systemColor="systemPinkColor" red="1" green="0.1764705882" blue="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                         <state key="normal" image="chevron.down.circle.fill" catalog="system">
                                                             <preferredSymbolConfiguration key="preferredSymbolConfiguration" scale="small" weight="bold"/>
                                                         </state>
@@ -590,7 +648,7 @@
                                                             <constraint firstAttribute="width" constant="25" id="JfQ-M8-hr9"/>
                                                             <constraint firstAttribute="height" constant="25" id="vg7-1t-aNo"/>
                                                         </constraints>
-                                                        <color key="tintColor" systemColor="systemPinkColor" red="1" green="0.17647058823529413" blue="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                        <color key="tintColor" systemColor="systemPinkColor" red="1" green="0.1764705882" blue="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                         <state key="normal" image="chevron.down.circle.fill" catalog="system">
                                                             <preferredSymbolConfiguration key="preferredSymbolConfiguration" scale="small" weight="bold"/>
                                                         </state>
@@ -632,7 +690,7 @@
                                                             <constraint firstAttribute="width" constant="25" id="EdH-SW-E7n"/>
                                                             <constraint firstAttribute="height" constant="25" id="Uwp-W4-HK6"/>
                                                         </constraints>
-                                                        <color key="tintColor" systemColor="systemPinkColor" red="1" green="0.17647058823529413" blue="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                        <color key="tintColor" systemColor="systemPinkColor" red="1" green="0.1764705882" blue="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                         <state key="normal" image="chevron.down.circle.fill" catalog="system">
                                                             <preferredSymbolConfiguration key="preferredSymbolConfiguration" scale="small" weight="bold"/>
                                                         </state>
@@ -654,7 +712,7 @@
                                                 </userDefinedRuntimeAttributes>
                                             </view>
                                         </subviews>
-                                        <color key="backgroundColor" systemColor="secondarySystemBackgroundColor" red="0.94901960784313721" green="0.94901960784313721" blue="0.96862745098039216" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <color key="backgroundColor" systemColor="secondarySystemBackgroundColor" red="0.94901960780000005" green="0.94901960780000005" blue="0.96862745100000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <constraints>
                                             <constraint firstItem="oA7-ll-GAW" firstAttribute="leading" secondItem="6W3-Qt-cA6" secondAttribute="leading" constant="15" id="33F-8O-LEw"/>
                                             <constraint firstItem="ZSu-5Y-Ubt" firstAttribute="height" relation="greaterThanOrEqual" secondItem="m6m-hp-rqW" secondAttribute="height" id="6Fj-Xn-ZqY"/>
@@ -728,13 +786,13 @@
                                     <constraint firstAttribute="height" constant="30" id="Mtx-Va-OWw"/>
                                     <constraint firstAttribute="width" constant="30" id="f3L-pE-Uoe"/>
                                 </constraints>
-                                <color key="tintColor" systemColor="systemPinkColor" red="1" green="0.17647058823529413" blue="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="tintColor" systemColor="systemPinkColor" red="1" green="0.1764705882" blue="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" image="pencil.tip.crop.circle" catalog="system">
                                     <preferredSymbolConfiguration key="preferredSymbolConfiguration" scale="large" weight="bold"/>
                                 </state>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" systemColor="secondarySystemBackgroundColor" red="0.94901960784313721" green="0.94901960784313721" blue="0.96862745098039216" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" systemColor="secondarySystemBackgroundColor" red="0.94901960780000005" green="0.94901960780000005" blue="0.96862745100000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="Jc5-k7-gYx" firstAttribute="top" secondItem="Haq-Nb-2hx" secondAttribute="bottom" constant="15" id="06G-Zt-N5x"/>
                             <constraint firstItem="Jc5-k7-gYx" firstAttribute="bottom" secondItem="Me3-cq-ySc" secondAttribute="bottom" id="C9B-VQ-Pax"/>
@@ -758,7 +816,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="e5e-LP-xlW" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-413" y="2149"/>
+            <point key="canvasLocation" x="-412" y="2181"/>
         </scene>
         <!--Historic View Controller-->
         <scene sceneID="rC5-5B-lNG">
@@ -773,7 +831,7 @@
                                 <constraints>
                                     <constraint firstAttribute="width" constant="40" id="RCM-5C-nAu"/>
                                 </constraints>
-                                <color key="tintColor" systemColor="systemPinkColor" red="1" green="0.17647058823529413" blue="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="tintColor" systemColor="systemPinkColor" red="1" green="0.1764705882" blue="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" image="chevron.left" catalog="system"/>
                                 <connections>
                                     <action selector="backButtonAction" destination="Fqd-qs-KIU" eventType="touchUpInside" id="1wR-t7-OIk"/>
@@ -789,7 +847,7 @@
                                 <rect key="frame" x="20" y="149" width="374" height="54"/>
                                 <string key="text">Essa funcionalidade cria um histórico médico que pode ser atualizado constantemente e facilmente visualizado. Permitindo que cada um de seus médicos possam ler e atualizar sem a necessidade de refaze-lo como em uma folha impressa.</string>
                                 <fontDescription key="fontDescription" type="system" weight="medium" pointSize="15"/>
-                                <color key="textColor" systemColor="secondaryLabelColor" red="0.23529411764705882" green="0.23529411764705882" blue="0.2627450980392157" alpha="0.59999999999999998" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="textColor" systemColor="secondaryLabelColor" red="0.23529411759999999" green="0.23529411759999999" blue="0.26274509800000001" alpha="0.59999999999999998" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="veB-6F-8hV">
@@ -825,7 +883,7 @@
                                                     <rect key="frame" x="15" y="122.5" width="180" height="78"/>
                                                     <string key="text">Essa funcionalidade cria um histórico médico que pode ser atualizado constantemente e facilmente visualizado. Permitindo que cada um de seus médicos possam ler e atualizar sem a necessidade de refaze-lo como em uma folha impressa.</string>
                                                     <fontDescription key="fontDescription" type="system" weight="medium" pointSize="13"/>
-                                                    <color key="textColor" systemColor="secondaryLabelColor" red="0.23529411764705882" green="0.23529411764705882" blue="0.2627450980392157" alpha="0.59999999999999998" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    <color key="textColor" systemColor="secondaryLabelColor" red="0.23529411759999999" green="0.23529411759999999" blue="0.26274509800000001" alpha="0.59999999999999998" colorSpace="custom" customColorSpace="sRGB"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                             </subviews>
@@ -842,7 +900,7 @@
                                                 <constraint firstAttribute="trailing" secondItem="bHq-Za-pQL" secondAttribute="trailing" constant="15" id="zMV-Nv-9pN"/>
                                             </constraints>
                                         </collectionViewCellContentView>
-                                        <color key="backgroundColor" systemColor="secondarySystemBackgroundColor" red="0.94901960784313721" green="0.94901960784313721" blue="0.96862745098039216" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <color key="backgroundColor" systemColor="secondarySystemBackgroundColor" red="0.94901960780000005" green="0.94901960780000005" blue="0.96862745100000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <size key="customSize" width="210" height="224"/>
                                         <userDefinedRuntimeAttributes>
                                             <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
@@ -867,7 +925,7 @@
                                     <constraint firstAttribute="width" constant="30" id="1qI-89-Enf"/>
                                     <constraint firstAttribute="height" constant="30" id="KV8-0u-WnA"/>
                                 </constraints>
-                                <color key="tintColor" systemColor="systemPinkColor" red="1" green="0.17647058823529413" blue="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="tintColor" systemColor="systemPinkColor" red="1" green="0.1764705882" blue="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" image="ellipsis.circle.fill" catalog="system">
                                     <preferredSymbolConfiguration key="preferredSymbolConfiguration" scale="large" weight="bold"/>
                                 </state>
@@ -900,11 +958,14 @@
                     <connections>
                         <outlet property="collectionView" destination="veB-6F-8hV" id="7NL-Sz-0eK"/>
                         <segue destination="cgu-xs-gsp" kind="show" identifier="PersonalDataViewController" id="w6x-kw-KGU"/>
+                        <segue destination="Fos-Dl-C9x" kind="show" identifier="AnamnesisViewController" id="NqF-ej-aOL"/>
+                        <segue destination="CWw-O4-4ha" kind="show" identifier="FamilyHistoryViewController" id="FA5-qU-Sr8"/>
+                        <segue destination="k5G-hQ-GtQ" kind="show" identifier="OccupationalBackgroundViewController" id="whw-Wg-Rev"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Gt6-ib-qdZ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="340.57971014492756" y="2148.8839285714284"/>
+            <point key="canvasLocation" x="341" y="2181"/>
         </scene>
         <!--Supplementary Data View Controller-->
         <scene sceneID="bqs-dG-Dcc">
@@ -931,7 +992,7 @@
                                                 <subviews>
                                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="person.crop.rectangle.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="qk9-TC-SRZ">
                                                         <rect key="frame" x="5" y="12.5" width="40" height="24.5"/>
-                                                        <color key="tintColor" systemColor="systemPinkColor" red="1" green="0.17647058823529413" blue="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                        <color key="tintColor" systemColor="systemPinkColor" red="1" green="0.1764705882" blue="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                         <constraints>
                                                             <constraint firstAttribute="width" constant="40" id="tFe-Qj-u2g"/>
                                                         </constraints>
@@ -1047,7 +1108,7 @@
                                                 <subviews>
                                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="hammer.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="lPw-cZ-aLX">
                                                         <rect key="frame" x="5" y="11.5" width="40" height="29"/>
-                                                        <color key="tintColor" systemColor="systemPinkColor" red="1" green="0.17647058823529413" blue="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                        <color key="tintColor" systemColor="systemPinkColor" red="1" green="0.1764705882" blue="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                         <constraints>
                                                             <constraint firstAttribute="width" constant="40" id="rWV-QX-K9p"/>
                                                         </constraints>
@@ -1117,7 +1178,7 @@
                                                             <constraint firstAttribute="height" constant="25" id="dZc-Wf-BMP"/>
                                                             <constraint firstAttribute="width" constant="25" id="qeZ-9S-ge1"/>
                                                         </constraints>
-                                                        <color key="tintColor" systemColor="systemPinkColor" red="1" green="0.17647058823529413" blue="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                        <color key="tintColor" systemColor="systemPinkColor" red="1" green="0.1764705882" blue="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                         <state key="normal" image="chevron.down.circle.fill" catalog="system">
                                                             <preferredSymbolConfiguration key="preferredSymbolConfiguration" scale="small" weight="bold"/>
                                                         </state>
@@ -1153,7 +1214,7 @@
                                                             <constraint firstAttribute="width" constant="25" id="T2O-Xe-F1E"/>
                                                             <constraint firstAttribute="height" constant="25" id="XZ1-Rp-3Yt"/>
                                                         </constraints>
-                                                        <color key="tintColor" systemColor="systemPinkColor" red="1" green="0.17647058823529413" blue="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                        <color key="tintColor" systemColor="systemPinkColor" red="1" green="0.1764705882" blue="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                         <state key="normal" image="chevron.down.circle.fill" catalog="system">
                                                             <preferredSymbolConfiguration key="preferredSymbolConfiguration" scale="small" weight="bold"/>
                                                         </state>
@@ -1249,7 +1310,7 @@
                                                 </userDefinedRuntimeAttributes>
                                             </view>
                                         </subviews>
-                                        <color key="backgroundColor" systemColor="secondarySystemBackgroundColor" red="0.94901960784313721" green="0.94901960784313721" blue="0.96862745098039216" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <color key="backgroundColor" systemColor="secondarySystemBackgroundColor" red="0.94901960780000005" green="0.94901960780000005" blue="0.96862745100000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <constraints>
                                             <constraint firstItem="7aq-mY-tnE" firstAttribute="leading" secondItem="ORu-A8-IT4" secondAttribute="leading" constant="15" id="1eq-d4-7zt"/>
                                             <constraint firstItem="oMY-SB-Q7q" firstAttribute="leading" secondItem="gQo-8f-BVl" secondAttribute="leading" id="2qR-ZQ-58z"/>
@@ -1330,13 +1391,13 @@
                                     <constraint firstAttribute="height" constant="30" id="TBT-xw-geC"/>
                                     <constraint firstAttribute="width" constant="30" id="WcO-cx-Coq"/>
                                 </constraints>
-                                <color key="tintColor" systemColor="systemPinkColor" red="1" green="0.17647058823529413" blue="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="tintColor" systemColor="systemPinkColor" red="1" green="0.1764705882" blue="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" image="pencil.tip.crop.circle" catalog="system">
                                     <preferredSymbolConfiguration key="preferredSymbolConfiguration" scale="large" weight="bold"/>
                                 </state>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" systemColor="secondarySystemBackgroundColor" red="0.94901960784313721" green="0.94901960784313721" blue="0.96862745098039216" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" systemColor="secondarySystemBackgroundColor" red="0.94901960780000005" green="0.94901960780000005" blue="0.96862745100000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="bcM-Ux-drZ" firstAttribute="centerY" secondItem="KQh-KA-rZw" secondAttribute="centerY" id="4E3-sM-LQJ"/>
                             <constraint firstItem="TQi-Gr-b9R" firstAttribute="leading" secondItem="PEG-98-gwA" secondAttribute="leading" id="54l-cV-P1J"/>
@@ -1361,7 +1422,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="hc2-yL-giZ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1184.0579710144928" y="2148.8839285714284"/>
+            <point key="canvasLocation" x="-1183" y="2181"/>
         </scene>
         <!--Dependencies View Controller-->
         <scene sceneID="EQT-9H-wqA">
@@ -1383,14 +1444,14 @@
                                     <constraint firstAttribute="width" constant="30" id="9tO-VJ-OgO"/>
                                     <constraint firstAttribute="height" constant="30" id="sGa-HO-omN"/>
                                 </constraints>
-                                <color key="tintColor" systemColor="systemPinkColor" red="1" green="0.17647058823529413" blue="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="tintColor" systemColor="systemPinkColor" red="1" green="0.1764705882" blue="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" image="pencil.tip.crop.circle" catalog="system">
                                     <preferredSymbolConfiguration key="preferredSymbolConfiguration" scale="large" weight="bold"/>
                                 </state>
                             </button>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="XdB-Lv-eyV">
                                 <rect key="frame" x="0.0" y="104" width="414" height="758"/>
-                                <color key="backgroundColor" systemColor="secondarySystemBackgroundColor" red="0.94901960784313721" green="0.94901960784313721" blue="0.96862745098039216" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="backgroundColor" systemColor="secondarySystemBackgroundColor" red="0.94901960780000005" green="0.94901960780000005" blue="0.96862745100000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="DependenciesTableViewCell" rowHeight="106" id="Vx1-a9-3B4" customClass="DependenciesTableViewCell" customModule="HelpYourHealth" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="28" width="414" height="106"/>
@@ -1404,7 +1465,7 @@
                                                     <subviews>
                                                         <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="person.crop.circle" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="8MZ-y3-hSu">
                                                             <rect key="frame" x="15" y="15.5" width="50" height="49.5"/>
-                                                            <color key="tintColor" systemColor="separatorColor" red="0.23529411764705882" green="0.23529411764705882" blue="0.2627450980392157" alpha="0.28999999999999998" colorSpace="custom" customColorSpace="sRGB"/>
+                                                            <color key="tintColor" systemColor="separatorColor" red="0.23529411759999999" green="0.23529411759999999" blue="0.26274509800000001" alpha="0.28999999999999998" colorSpace="custom" customColorSpace="sRGB"/>
                                                             <constraints>
                                                                 <constraint firstAttribute="width" constant="50" id="a5Y-W2-q5F"/>
                                                                 <constraint firstAttribute="height" constant="50" id="tHG-pk-ae3"/>
@@ -1422,13 +1483,13 @@
                                                                 <constraint firstAttribute="width" constant="30" id="MO4-LF-VNo"/>
                                                             </constraints>
                                                             <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
-                                                            <color key="textColor" systemColor="secondaryLabelColor" red="0.23529411764705882" green="0.23529411764705882" blue="0.2627450980392157" alpha="0.59999999999999998" colorSpace="custom" customColorSpace="sRGB"/>
+                                                            <color key="textColor" systemColor="secondaryLabelColor" red="0.23529411759999999" green="0.23529411759999999" blue="0.26274509800000001" alpha="0.59999999999999998" colorSpace="custom" customColorSpace="sRGB"/>
                                                             <nil key="highlightedColor"/>
                                                         </label>
                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="(67) 98231-5832" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FNG-qx-ozC">
                                                             <rect key="frame" x="75" y="45" width="284" height="20.5"/>
                                                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                            <color key="textColor" systemColor="secondaryLabelColor" red="0.23529411764705882" green="0.23529411764705882" blue="0.2627450980392157" alpha="0.59999999999999998" colorSpace="custom" customColorSpace="sRGB"/>
+                                                            <color key="textColor" systemColor="secondaryLabelColor" red="0.23529411759999999" green="0.23529411759999999" blue="0.26274509800000001" alpha="0.59999999999999998" colorSpace="custom" customColorSpace="sRGB"/>
                                                             <nil key="highlightedColor"/>
                                                         </label>
                                                     </subviews>
@@ -1471,7 +1532,7 @@
                                 </prototypes>
                             </tableView>
                         </subviews>
-                        <color key="backgroundColor" systemColor="secondarySystemBackgroundColor" red="0.94901960784313721" green="0.94901960784313721" blue="0.96862745098039216" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" systemColor="secondarySystemBackgroundColor" red="0.94901960780000005" green="0.94901960780000005" blue="0.96862745100000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="XdB-Lv-eyV" firstAttribute="leading" secondItem="1dK-ya-opX" secondAttribute="leading" id="3jJ-uf-vfD"/>
                             <constraint firstItem="lnh-bQ-bfQ" firstAttribute="leading" secondItem="1dK-ya-opX" secondAttribute="leading" constant="15" id="770-c7-ybO"/>
@@ -1491,7 +1552,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="yes-Rl-x3f" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1955.072463768116" y="2836.6071428571427"/>
+            <point key="canvasLocation" x="-1948" y="2905"/>
         </scene>
         <!--Address View Controller-->
         <scene sceneID="JAh-4a-u6z">
@@ -1518,7 +1579,7 @@
                                                 <subviews>
                                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="mappin.and.ellipse" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="4xv-Pk-m4t">
                                                         <rect key="frame" x="5" y="12.5" width="40" height="26.5"/>
-                                                        <color key="tintColor" systemColor="systemPinkColor" red="1" green="0.17647058823529413" blue="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                        <color key="tintColor" systemColor="systemPinkColor" red="1" green="0.1764705882" blue="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                         <constraints>
                                                             <constraint firstAttribute="width" constant="40" id="xzY-Bl-ZZl"/>
                                                         </constraints>
@@ -1725,7 +1786,7 @@
                                                             <constraint firstAttribute="height" constant="25" id="BzK-0m-CYQ"/>
                                                             <constraint firstAttribute="width" constant="25" id="xXp-kZ-GBZ"/>
                                                         </constraints>
-                                                        <color key="tintColor" systemColor="systemPinkColor" red="1" green="0.17647058823529413" blue="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                        <color key="tintColor" systemColor="systemPinkColor" red="1" green="0.1764705882" blue="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                         <state key="normal" image="chevron.down.circle.fill" catalog="system">
                                                             <preferredSymbolConfiguration key="preferredSymbolConfiguration" scale="small" weight="bold"/>
                                                         </state>
@@ -1747,7 +1808,7 @@
                                                 </userDefinedRuntimeAttributes>
                                             </view>
                                         </subviews>
-                                        <color key="backgroundColor" systemColor="secondarySystemBackgroundColor" red="0.94901960784313721" green="0.94901960784313721" blue="0.96862745098039216" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <color key="backgroundColor" systemColor="secondarySystemBackgroundColor" red="0.94901960780000005" green="0.94901960780000005" blue="0.96862745100000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <constraints>
                                             <constraint firstItem="kR3-2Z-ZjE" firstAttribute="height" secondItem="HAt-bE-Ptv" secondAttribute="height" id="36e-vt-3aj"/>
                                             <constraint firstItem="fzp-Ie-vHl" firstAttribute="leading" secondItem="6B4-zp-SMJ" secondAttribute="trailing" constant="10" id="3jH-Ix-EAv"/>
@@ -1812,13 +1873,13 @@
                                     <constraint firstAttribute="width" constant="30" id="rLY-ur-0Aa"/>
                                     <constraint firstAttribute="height" constant="30" id="zej-dN-eTm"/>
                                 </constraints>
-                                <color key="tintColor" systemColor="systemPinkColor" red="1" green="0.17647058823529413" blue="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="tintColor" systemColor="systemPinkColor" red="1" green="0.1764705882" blue="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" image="pencil.tip.crop.circle" catalog="system">
                                     <preferredSymbolConfiguration key="preferredSymbolConfiguration" scale="large" weight="bold"/>
                                 </state>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" systemColor="secondarySystemBackgroundColor" red="0.94901960784313721" green="0.94901960784313721" blue="0.96862745098039216" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" systemColor="secondarySystemBackgroundColor" red="0.94901960780000005" green="0.94901960780000005" blue="0.96862745100000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="tJG-sf-cXo" firstAttribute="top" secondItem="7f1-4z-kGH" secondAttribute="bottom" constant="15" id="4Pd-zw-wmK"/>
                             <constraint firstItem="tJG-sf-cXo" firstAttribute="trailing" secondItem="lgY-Do-Smm" secondAttribute="trailing" id="EBZ-dX-eqE"/>
@@ -1842,7 +1903,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="3di-O7-Ulr" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1184.0579710144928" y="2836.6071428571427"/>
+            <point key="canvasLocation" x="-1177" y="2905"/>
         </scene>
         <!--Contact View Controller-->
         <scene sceneID="0zd-oQ-TDY">
@@ -1869,7 +1930,7 @@
                                                 <subviews>
                                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="envelope.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="BeC-xv-hpF">
                                                         <rect key="frame" x="5" y="13" width="40" height="24"/>
-                                                        <color key="tintColor" systemColor="systemPinkColor" red="1" green="0.17647058823529413" blue="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                        <color key="tintColor" systemColor="systemPinkColor" red="1" green="0.1764705882" blue="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                         <constraints>
                                                             <constraint firstAttribute="width" constant="40" id="i5r-tb-Aui"/>
                                                         </constraints>
@@ -1917,7 +1978,7 @@
                                                 <subviews>
                                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="phone.circle.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="Ogh-ET-B7B">
                                                         <rect key="frame" x="5" y="12.5" width="40" height="26"/>
-                                                        <color key="tintColor" systemColor="systemPinkColor" red="1" green="0.17647058823529413" blue="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                        <color key="tintColor" systemColor="systemPinkColor" red="1" green="0.1764705882" blue="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                         <constraints>
                                                             <constraint firstAttribute="width" constant="40" id="wrD-b0-3qq"/>
                                                         </constraints>
@@ -2111,7 +2172,7 @@
                                                 <nil key="highlightedColor"/>
                                             </label>
                                         </subviews>
-                                        <color key="backgroundColor" systemColor="secondarySystemBackgroundColor" red="0.94901960784313721" green="0.94901960784313721" blue="0.96862745098039216" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <color key="backgroundColor" systemColor="secondarySystemBackgroundColor" red="0.94901960780000005" green="0.94901960780000005" blue="0.96862745100000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <constraints>
                                             <constraint firstItem="QCk-vl-711" firstAttribute="top" secondItem="4tn-Kg-zyl" secondAttribute="bottom" constant="15" id="0Yd-n5-7zz"/>
                                             <constraint firstItem="tmR-mO-CN0" firstAttribute="leading" secondItem="uY5-bK-VmI" secondAttribute="leading" constant="15" id="0wH-Ev-TX8"/>
@@ -2173,13 +2234,13 @@
                                     <constraint firstAttribute="height" constant="30" id="fE2-5s-aur"/>
                                     <constraint firstAttribute="width" constant="30" id="xpw-fq-fo4"/>
                                 </constraints>
-                                <color key="tintColor" systemColor="systemPinkColor" red="1" green="0.17647058823529413" blue="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="tintColor" systemColor="systemPinkColor" red="1" green="0.1764705882" blue="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" image="pencil.tip.crop.circle" catalog="system">
                                     <preferredSymbolConfiguration key="preferredSymbolConfiguration" scale="large" weight="bold"/>
                                 </state>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" systemColor="secondarySystemBackgroundColor" red="0.94901960784313721" green="0.94901960784313721" blue="0.96862745098039216" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" systemColor="secondarySystemBackgroundColor" red="0.94901960780000005" green="0.94901960780000005" blue="0.96862745100000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="rKW-oL-m4D" firstAttribute="bottom" secondItem="Mw6-F6-pbr" secondAttribute="bottom" id="2sY-o9-FJq"/>
                             <constraint firstItem="rKW-oL-m4D" firstAttribute="leading" secondItem="Mw6-F6-pbr" secondAttribute="leading" id="DAQ-4f-DFi"/>
@@ -2204,7 +2265,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="7C6-jZ-pGY" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-413.04347826086962" y="2836.6071428571427"/>
+            <point key="canvasLocation" x="-406" y="2905"/>
         </scene>
         <!--Personal Data View Controller-->
         <scene sceneID="RXQ-2t-D0F">
@@ -2225,7 +2286,7 @@
                                 <constraints>
                                     <constraint firstAttribute="width" constant="40" id="2be-7b-MUj"/>
                                 </constraints>
-                                <color key="tintColor" systemColor="systemPinkColor" red="1" green="0.17647058823529413" blue="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="tintColor" systemColor="systemPinkColor" red="1" green="0.1764705882" blue="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" image="chevron.left" catalog="system"/>
                                 <connections>
                                     <action selector="backButtonAction" destination="cgu-xs-gsp" eventType="touchUpInside" id="JbT-LA-vXg"/>
@@ -2234,12 +2295,12 @@
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Toda informação relacionada a uma pessoa e que permite identificá-la, ou seja, permite saber sobre sua real existência." textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OCJ-QX-jRu">
                                 <rect key="frame" x="20" y="154" width="374" height="54"/>
                                 <fontDescription key="fontDescription" type="system" weight="medium" pointSize="15"/>
-                                <color key="textColor" systemColor="secondaryLabelColor" red="0.23529411764705882" green="0.23529411764705882" blue="0.2627450980392157" alpha="0.59999999999999998" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="textColor" systemColor="secondaryLabelColor" red="0.23529411759999999" green="0.23529411759999999" blue="0.26274509800000001" alpha="0.59999999999999998" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="murilo.arelhano" translatesAutoresizingMaskIntoConstraints="NO" id="kTZ-gK-hqT">
                                 <rect key="frame" x="354" y="106" width="40" height="40"/>
-                                <color key="tintColor" systemColor="separatorColor" red="0.23529411764705882" green="0.23529411764705882" blue="0.2627450980392157" alpha="0.28999999999999998" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="tintColor" systemColor="separatorColor" red="0.23529411759999999" green="0.23529411759999999" blue="0.26274509800000001" alpha="0.28999999999999998" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="40" id="sas-eU-XJK"/>
                                     <constraint firstAttribute="height" constant="40" id="vnk-dz-djm"/>
@@ -2262,7 +2323,7 @@
                                             <rect key="frame" x="0.0" y="0.0" width="350" height="529"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                         </collectionViewCellContentView>
-                                        <color key="backgroundColor" systemColor="secondarySystemBackgroundColor" red="0.94901960784313721" green="0.94901960784313721" blue="0.96862745098039216" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <color key="backgroundColor" systemColor="secondarySystemBackgroundColor" red="0.94901960780000005" green="0.94901960780000005" blue="0.96862745100000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <size key="customSize" width="350" height="529"/>
                                         <userDefinedRuntimeAttributes>
                                             <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
@@ -2304,7 +2365,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="3JT-gX-z6k" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="340.57971014492756" y="2836.6071428571427"/>
+            <point key="canvasLocation" x="348" y="2905"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="j1y-Sa-bmB">
@@ -2326,7 +2387,7 @@
                                     <constraint firstAttribute="height" constant="30" id="ZoD-zV-4UM"/>
                                     <constraint firstAttribute="width" constant="30" id="htv-hG-56C"/>
                                 </constraints>
-                                <color key="tintColor" systemColor="systemPinkColor" red="1" green="0.17647058823529413" blue="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="tintColor" systemColor="systemPinkColor" red="1" green="0.1764705882" blue="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" image="xmark.circle.fill" catalog="system">
                                     <preferredSymbolConfiguration key="preferredSymbolConfiguration" scale="large" weight="bold"/>
                                 </state>
@@ -2386,7 +2447,145 @@ Ao ter um médico que centraliza as informações, da mesma forma que acontece n
                 <placeholder placeholderIdentifier="IBFirstResponder" id="XSe-wK-pzc" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <exit id="d6c-bV-aAZ" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
-            <point key="canvasLocation" x="1109" y="2149"/>
+            <point key="canvasLocation" x="1112" y="2181"/>
+        </scene>
+        <!--Anamnesis View Controller-->
+        <scene sceneID="Xdt-Vm-JSJ">
+            <objects>
+                <viewController storyboardIdentifier="AnamnesisViewController" id="Fos-Dl-C9x" customClass="AnamnesisViewController" customModule="HelpYourHealth" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="X9l-4P-8gk">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JT0-WG-NDg">
+                                <rect key="frame" x="0.0" y="108" width="40" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="JT0-WG-NDg" secondAttribute="height" multiplier="1:1" id="dVV-82-DuB"/>
+                                    <constraint firstAttribute="width" constant="40" id="sEG-97-B0T"/>
+                                </constraints>
+                                <color key="tintColor" systemColor="systemPinkColor" red="1" green="0.1764705882" blue="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" image="chevron.left" catalog="system"/>
+                                <connections>
+                                    <action selector="backButtonAction" destination="Fos-Dl-C9x" eventType="touchUpInside" id="1fK-zL-dxc"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Anamnese" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9Wt-NB-DB5">
+                                <rect key="frame" x="45" y="108" width="309" height="36"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="30"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Histórico de todos os sintomas narrados pelo paciente sobre os casos clínicos" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1gd-bK-yXo">
+                                <rect key="frame" x="20" y="149" width="374" height="36"/>
+                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="15"/>
+                                <color key="textColor" systemColor="secondaryLabelColor" red="0.23529411759999999" green="0.23529411759999999" blue="0.26274509800000001" alpha="0.59999999999999998" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gVv-au-cD1">
+                                <rect key="frame" x="364" y="113" width="30" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="cDH-W7-0ag"/>
+                                    <constraint firstAttribute="width" constant="30" id="sD6-FK-esI"/>
+                                </constraints>
+                                <color key="tintColor" systemColor="systemPinkColor" red="1" green="0.1764705882" blue="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" image="ellipsis.circle.fill" catalog="system">
+                                    <preferredSymbolConfiguration key="preferredSymbolConfiguration" scale="large" weight="bold"/>
+                                </state>
+                                <connections>
+                                    <segue destination="Ikl-su-hqw" kind="show" id="Vad-i5-tnR"/>
+                                </connections>
+                            </button>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" allowsSelection="NO" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="Kvb-Mx-AbF">
+                                <rect key="frame" x="0.0" y="228" width="414" height="585"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="AnamnesisTableViewCell" rowHeight="165" id="ZuH-N4-DOH" customClass="AnamnesisTableViewCell" customModule="HelpYourHealth" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="28" width="414" height="165"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="ZuH-N4-DOH" id="EIb-6r-Bu6">
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="165"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="H4C-0A-Vw1">
+                                                    <rect key="frame" x="20" y="11" width="314" height="31"/>
+                                                    <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="f6k-ul-NG9">
+                                                    <rect key="frame" x="344" y="67" width="52" height="31"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="width" constant="50" id="HVY-yh-bkm"/>
+                                                    </constraints>
+                                                </switch>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kuN-HM-kLa">
+                                                    <rect key="frame" x="20" y="45" width="314" height="20.5"/>
+                                                    <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="17"/>
+                                                    <color key="textColor" systemColor="secondaryLabelColor" red="0.23529411759999999" green="0.23529411759999999" blue="0.26274509800000001" alpha="0.59999999999999998" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstAttribute="bottomMargin" relation="greaterThanOrEqual" secondItem="kuN-HM-kLa" secondAttribute="bottom" id="2XE-f2-d7h"/>
+                                                <constraint firstItem="kuN-HM-kLa" firstAttribute="top" secondItem="H4C-0A-Vw1" secondAttribute="bottom" constant="3" id="34i-Xl-rOt"/>
+                                                <constraint firstItem="kuN-HM-kLa" firstAttribute="leading" secondItem="EIb-6r-Bu6" secondAttribute="leadingMargin" id="CeE-6N-3v9"/>
+                                                <constraint firstItem="H4C-0A-Vw1" firstAttribute="height" relation="greaterThanOrEqual" secondItem="f6k-ul-NG9" secondAttribute="height" id="Fnm-r3-CbB"/>
+                                                <constraint firstItem="H4C-0A-Vw1" firstAttribute="top" secondItem="EIb-6r-Bu6" secondAttribute="topMargin" id="GRW-mL-bBy"/>
+                                                <constraint firstItem="f6k-ul-NG9" firstAttribute="leading" secondItem="kuN-HM-kLa" secondAttribute="trailing" constant="10" id="Nvx-fh-LtN"/>
+                                                <constraint firstItem="f6k-ul-NG9" firstAttribute="centerY" secondItem="EIb-6r-Bu6" secondAttribute="centerY" id="X6H-rc-oMW"/>
+                                                <constraint firstAttribute="trailingMargin" secondItem="f6k-ul-NG9" secondAttribute="trailing" id="XJA-Xw-NLc"/>
+                                                <constraint firstItem="f6k-ul-NG9" firstAttribute="leading" secondItem="H4C-0A-Vw1" secondAttribute="trailing" constant="10" id="j8A-MZ-epp"/>
+                                                <constraint firstItem="H4C-0A-Vw1" firstAttribute="leading" secondItem="EIb-6r-Bu6" secondAttribute="leadingMargin" id="zEu-ZA-IA5"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <outlet property="descriptionLabel" destination="kuN-HM-kLa" id="T7O-Yp-rHp"/>
+                                            <outlet property="isYes" destination="f6k-ul-NG9" id="nd1-FD-lme"/>
+                                            <outlet property="nameLabel" destination="H4C-0A-Vw1" id="OPI-fX-6ww"/>
+                                        </connections>
+                                    </tableViewCell>
+                                </prototypes>
+                                <connections>
+                                    <outlet property="dataSource" destination="Fos-Dl-C9x" id="RFu-wl-cWD"/>
+                                    <outlet property="delegate" destination="Fos-Dl-C9x" id="sNd-VO-CvI"/>
+                                </connections>
+                            </tableView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Sofreu ou sofre das doenças abaixo relacionadas ?" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EC7-BF-NPp">
+                                <rect key="frame" x="20" y="200" width="374" height="18"/>
+                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="15"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="JT0-WG-NDg" firstAttribute="leading" secondItem="OfN-ZM-ejE" secondAttribute="leading" id="0G2-HJ-LRx"/>
+                            <constraint firstItem="OfN-ZM-ejE" firstAttribute="bottom" secondItem="Kvb-Mx-AbF" secondAttribute="bottom" id="0jq-Df-n71"/>
+                            <constraint firstItem="EC7-BF-NPp" firstAttribute="top" secondItem="1gd-bK-yXo" secondAttribute="bottom" constant="15" id="6FD-RM-Sv7"/>
+                            <constraint firstItem="OfN-ZM-ejE" firstAttribute="trailing" secondItem="1gd-bK-yXo" secondAttribute="trailing" constant="20" id="HOK-jX-Yry"/>
+                            <constraint firstItem="gVv-au-cD1" firstAttribute="centerY" secondItem="JT0-WG-NDg" secondAttribute="centerY" id="KcB-gY-ZQh"/>
+                            <constraint firstItem="JT0-WG-NDg" firstAttribute="top" secondItem="OfN-ZM-ejE" secondAttribute="top" constant="20" id="Kfx-e6-Jw9"/>
+                            <constraint firstItem="EC7-BF-NPp" firstAttribute="leading" secondItem="OfN-ZM-ejE" secondAttribute="leading" constant="20" id="MlL-xR-C41"/>
+                            <constraint firstItem="OfN-ZM-ejE" firstAttribute="trailing" secondItem="EC7-BF-NPp" secondAttribute="trailing" constant="20" id="OU8-db-KfY"/>
+                            <constraint firstItem="1gd-bK-yXo" firstAttribute="leading" secondItem="OfN-ZM-ejE" secondAttribute="leading" constant="20" id="TQP-7F-XsQ"/>
+                            <constraint firstItem="Kvb-Mx-AbF" firstAttribute="leading" secondItem="OfN-ZM-ejE" secondAttribute="leading" id="Z0x-ho-noW"/>
+                            <constraint firstItem="OfN-ZM-ejE" firstAttribute="trailing" secondItem="gVv-au-cD1" secondAttribute="trailing" constant="20" id="aTJ-d6-y6U"/>
+                            <constraint firstItem="Kvb-Mx-AbF" firstAttribute="top" secondItem="EC7-BF-NPp" secondAttribute="bottom" constant="10" id="bdD-hc-Jzy"/>
+                            <constraint firstItem="gVv-au-cD1" firstAttribute="leading" secondItem="9Wt-NB-DB5" secondAttribute="trailing" constant="10" id="eZV-PE-exI"/>
+                            <constraint firstItem="OfN-ZM-ejE" firstAttribute="trailing" secondItem="Kvb-Mx-AbF" secondAttribute="trailing" id="fcK-c0-LKx"/>
+                            <constraint firstItem="1gd-bK-yXo" firstAttribute="top" secondItem="9Wt-NB-DB5" secondAttribute="bottom" constant="5" id="iuo-Wq-dCv"/>
+                            <constraint firstItem="9Wt-NB-DB5" firstAttribute="leading" secondItem="JT0-WG-NDg" secondAttribute="trailing" constant="5" id="rT0-9S-1NC"/>
+                            <constraint firstItem="9Wt-NB-DB5" firstAttribute="top" secondItem="OfN-ZM-ejE" secondAttribute="top" constant="20" id="uuh-7l-HfT"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="OfN-ZM-ejE"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="B4E-d2-P9I"/>
+                    <connections>
+                        <outlet property="tableView" destination="Kvb-Mx-AbF" id="g4J-2W-geX"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Svm-Gs-dY0" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1118.840579710145" y="2904.9107142857142"/>
         </scene>
         <!--My Patient View Controller-->
         <scene sceneID="EB7-i9-aMt">
@@ -2406,16 +2605,16 @@ Ao ter um médico que centraliza as informações, da mesma forma que acontece n
                                 <rect key="frame" x="20" y="149" width="374" height="54"/>
                                 <string key="text">Nessa aba é possível visualizar todos pacientes do médico, onde o mesmo poderá acessar e visualizar as informações de cada paciente</string>
                                 <fontDescription key="fontDescription" type="system" weight="medium" pointSize="15"/>
-                                <color key="textColor" systemColor="secondaryLabelColor" red="0.23529411764705882" green="0.23529411764705882" blue="0.2627450980392157" alpha="0.59999999999999998" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="textColor" systemColor="secondaryLabelColor" red="0.23529411759999999" green="0.23529411759999999" blue="0.26274509800000001" alpha="0.59999999999999998" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <searchBar clipsSubviews="YES" contentMode="redraw" text="" placeholder="Informe o nome" translatesAutoresizingMaskIntoConstraints="NO" id="1p5-6f-vCP">
                                 <rect key="frame" x="20" y="218" width="334" height="56"/>
-                                <color key="backgroundColor" systemColor="secondarySystemBackgroundColor" red="0.94901960784313721" green="0.94901960784313721" blue="0.96862745098039216" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="backgroundColor" systemColor="secondarySystemBackgroundColor" red="0.94901960780000005" green="0.94901960780000005" blue="0.96862745100000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="56" id="YKX-Sa-2XT"/>
                                 </constraints>
-                                <color key="barTintColor" systemColor="secondarySystemBackgroundColor" red="0.94901960784313721" green="0.94901960784313721" blue="0.96862745098039216" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="barTintColor" systemColor="secondarySystemBackgroundColor" red="0.94901960780000005" green="0.94901960780000005" blue="0.96862745100000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <textInputTraits key="textInputTraits"/>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
@@ -2428,7 +2627,7 @@ Ao ter um médico que centraliza as informações, da mesma forma que acontece n
                                 <constraints>
                                     <constraint firstAttribute="width" constant="30" id="3uV-KX-mqw"/>
                                 </constraints>
-                                <color key="tintColor" systemColor="systemPinkColor" red="1" green="0.17647058823529413" blue="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="tintColor" systemColor="systemPinkColor" red="1" green="0.1764705882" blue="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" image="keyboard.chevron.compact.down" catalog="system">
                                     <preferredSymbolConfiguration key="preferredSymbolConfiguration" weight="bold"/>
                                 </state>
@@ -2438,7 +2637,7 @@ Ao ter um médico que centraliza as informações, da mesma forma que acontece n
                                 <constraints>
                                     <constraint firstAttribute="width" constant="40" id="36W-ys-xvA"/>
                                 </constraints>
-                                <color key="tintColor" systemColor="systemPinkColor" red="1" green="0.17647058823529413" blue="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="tintColor" systemColor="systemPinkColor" red="1" green="0.1764705882" blue="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" image="person.crop.circle.badge.plus" catalog="system">
                                     <preferredSymbolConfiguration key="preferredSymbolConfiguration" scale="large" weight="semibold"/>
                                 </state>
@@ -2465,7 +2664,7 @@ Ao ter um médico que centraliza as informações, da mesma forma que acontece n
                                                     <subviews>
                                                         <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="person.crop.circle" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="ezx-iG-980">
                                                             <rect key="frame" x="15" y="15.5" width="50" height="49.5"/>
-                                                            <color key="tintColor" systemColor="separatorColor" red="0.23529411764705882" green="0.23529411764705882" blue="0.2627450980392157" alpha="0.28999999999999998" colorSpace="custom" customColorSpace="sRGB"/>
+                                                            <color key="tintColor" systemColor="separatorColor" red="0.23529411759999999" green="0.23529411759999999" blue="0.26274509800000001" alpha="0.28999999999999998" colorSpace="custom" customColorSpace="sRGB"/>
                                                             <constraints>
                                                                 <constraint firstAttribute="height" constant="50" id="0KR-xN-Ipj"/>
                                                                 <constraint firstAttribute="width" constant="50" id="Cij-tb-v7P"/>
@@ -2483,13 +2682,13 @@ Ao ter um médico que centraliza as informações, da mesma forma que acontece n
                                                                 <constraint firstAttribute="width" constant="30" id="JIh-5R-3BM"/>
                                                             </constraints>
                                                             <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
-                                                            <color key="textColor" systemColor="secondaryLabelColor" red="0.23529411764705882" green="0.23529411764705882" blue="0.2627450980392157" alpha="0.59999999999999998" colorSpace="custom" customColorSpace="sRGB"/>
+                                                            <color key="textColor" systemColor="secondaryLabelColor" red="0.23529411759999999" green="0.23529411759999999" blue="0.26274509800000001" alpha="0.59999999999999998" colorSpace="custom" customColorSpace="sRGB"/>
                                                             <nil key="highlightedColor"/>
                                                         </label>
                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="(67) 98231-5832" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wuI-ds-4HC">
                                                             <rect key="frame" x="75" y="45" width="289" height="20.5"/>
                                                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                            <color key="textColor" systemColor="secondaryLabelColor" red="0.23529411764705882" green="0.23529411764705882" blue="0.2627450980392157" alpha="0.59999999999999998" colorSpace="custom" customColorSpace="sRGB"/>
+                                                            <color key="textColor" systemColor="secondaryLabelColor" red="0.23529411759999999" green="0.23529411759999999" blue="0.26274509800000001" alpha="0.59999999999999998" colorSpace="custom" customColorSpace="sRGB"/>
                                                             <nil key="highlightedColor"/>
                                                         </label>
                                                         <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Dk1-TM-mC3">
@@ -2501,7 +2700,7 @@ Ao ter um médico que centraliza as informações, da mesma forma que acontece n
                                                             <fontDescription key="fontDescription" type="boldSystem" pointSize="13"/>
                                                             <color key="tintColor" red="0.38314241170000002" green="0.73027718070000003" blue="0.27674913410000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                             <state key="normal" image="phone.fill.arrow.up.right" catalog="system">
-                                                                <color key="titleColor" systemColor="systemPinkColor" red="1" green="0.17647058823529413" blue="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                                <color key="titleColor" systemColor="systemPinkColor" red="1" green="0.1764705882" blue="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                 <preferredSymbolConfiguration key="preferredSymbolConfiguration" scale="small"/>
                                                             </state>
                                                             <userDefinedRuntimeAttributes>
@@ -2514,9 +2713,9 @@ Ao ter um médico que centraliza as informações, da mesma forma que acontece n
                                                             <rect key="frame" x="251.5" y="80.5" width="107.5" height="35"/>
                                                             <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                                                             <fontDescription key="fontDescription" type="boldSystem" pointSize="13"/>
-                                                            <color key="tintColor" systemColor="systemBlueColor" red="0.0" green="0.47843137254901963" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                            <color key="tintColor" systemColor="systemBlueColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                             <state key="normal" image="envelope.fill" catalog="system">
-                                                                <color key="titleColor" systemColor="systemPinkColor" red="1" green="0.17647058823529413" blue="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                                <color key="titleColor" systemColor="systemPinkColor" red="1" green="0.1764705882" blue="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                 <preferredSymbolConfiguration key="preferredSymbolConfiguration" scale="small"/>
                                                             </state>
                                                             <userDefinedRuntimeAttributes>
@@ -2529,9 +2728,9 @@ Ao ter um médico que centraliza as informações, da mesma forma que acontece n
                                                             <rect key="frame" x="135.5" y="80.5" width="108" height="35"/>
                                                             <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                                                             <fontDescription key="fontDescription" type="boldSystem" pointSize="13"/>
-                                                            <color key="tintColor" systemColor="systemPinkColor" red="1" green="0.17647058823529413" blue="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                            <color key="tintColor" systemColor="systemPinkColor" red="1" green="0.1764705882" blue="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                             <state key="normal" image="ellipsis.circle.fill" catalog="system">
-                                                                <color key="titleColor" systemColor="systemPinkColor" red="1" green="0.17647058823529413" blue="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                                <color key="titleColor" systemColor="systemPinkColor" red="1" green="0.1764705882" blue="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                 <preferredSymbolConfiguration key="preferredSymbolConfiguration" scale="small"/>
                                                             </state>
                                                             <userDefinedRuntimeAttributes>
@@ -2559,7 +2758,7 @@ Ao ter um médico que centraliza as informações, da mesma forma que acontece n
                                                             <nil key="highlightedColor"/>
                                                         </label>
                                                     </subviews>
-                                                    <color key="backgroundColor" systemColor="secondarySystemBackgroundColor" red="0.94901960784313721" green="0.94901960784313721" blue="0.96862745098039216" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    <color key="backgroundColor" systemColor="secondarySystemBackgroundColor" red="0.94901960780000005" green="0.94901960780000005" blue="0.96862745100000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                     <constraints>
                                                         <constraint firstItem="k3b-Pk-hAb" firstAttribute="leading" secondItem="Dk1-TM-mC3" secondAttribute="trailing" constant="8" id="03g-fv-Fr1"/>
                                                         <constraint firstItem="ZVh-G9-U4a" firstAttribute="width" secondItem="k3b-Pk-hAb" secondAttribute="width" id="0Ma-IK-fpA"/>
@@ -2670,8 +2869,8 @@ Ao ter um médico que centraliza as informações, da mesma forma que acontece n
                         <rect key="frame" x="0.0" y="0.0" width="414" height="49"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                        <color key="tintColor" systemColor="systemPinkColor" red="1" green="0.17647058823529413" blue="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                        <color key="selectedImageTintColor" systemColor="systemPinkColor" red="1" green="0.17647058823529413" blue="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="tintColor" systemColor="systemPinkColor" red="1" green="0.1764705882" blue="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="selectedImageTintColor" systemColor="systemPinkColor" red="1" green="0.1764705882" blue="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </tabBar>
                     <connections>
                         <segue destination="Rjl-HS-OQJ" kind="relationship" relationship="viewControllers" id="AUt-bY-jgJ"/>
@@ -2688,7 +2887,7 @@ Ao ter um médico que centraliza as informações, da mesma forma que acontece n
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Zn9-RJ-Kku" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="Pacientes" image="rectangle.stack.person.crop.fill" catalog="system" id="VYn-r4-hF3">
-                        <color key="badgeColor" systemColor="systemPinkColor" red="1" green="0.17647058823529413" blue="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="badgeColor" systemColor="systemPinkColor" red="1" green="0.1764705882" blue="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </tabBarItem>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="QdA-wM-6Qf">
@@ -2704,6 +2903,547 @@ Ao ter um médico que centraliza as informações, da mesma forma que acontece n
             </objects>
             <point key="canvasLocation" x="-413.04347826086962" y="756.69642857142856"/>
         </scene>
+        <!--View Controller-->
+        <scene sceneID="SyL-bU-2cP">
+            <objects>
+                <viewController modalPresentationStyle="pageSheet" id="Ikl-su-hqw" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="bHb-Wz-hTd">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="A Anamnese Médica" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xdf-eT-x18">
+                                <rect key="frame" x="20" y="108" width="334" height="36"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="30"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zP2-Cg-7uU">
+                                <rect key="frame" x="364" y="113" width="30" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="30" id="aAN-oN-BVg"/>
+                                    <constraint firstAttribute="height" constant="30" id="tBT-gN-rrb"/>
+                                </constraints>
+                                <color key="tintColor" systemColor="systemPinkColor" red="1" green="0.1764705882" blue="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" image="xmark.circle.fill" catalog="system">
+                                    <preferredSymbolConfiguration key="preferredSymbolConfiguration" scale="large" weight="bold"/>
+                                </state>
+                                <connections>
+                                    <segue destination="oVp-sz-eM7" kind="unwind" unwindAction="unwindToAnamnesisWithSegue:" id="vUV-1m-MQO"/>
+                                </connections>
+                            </button>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="oMp-Da-I9d">
+                                <rect key="frame" x="20" y="149" width="374" height="664"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                <string key="text">Analise os parâmetros clínicos
+Os parâmetros vitais são aqueles relacionados à pressão arterial, temperatura corporal, glicemia, reflexos neurais, nível de consciência e outros condizentes com o contexto clínico.
+
+Mediante os aparelhos calibrados, é possível ter mais detalhes sobre a duração e intensidade dos sintomas, relação causal com algum acontecimento e nível de incômodo do paciente.
+
+Ao conseguir esses dados, é imprescindível investigar o histórico clínico do paciente. Nesse sentido, é importante questionar sobre a presença de doenças e relatos de cirurgias que são relevantes para o caso.
+
+Obtenha o histórico medicamentoso
+O profissional de saúde deve questionar sobre o uso de medicamentos prescritos, produtos já utilizados e os não prescritos. Esse levantamento servirá para analisar possíveis interações medicamentosas e falta de adesão ao tratamento.
+
+O medicamento prescrito e usado de forma contínua deve ser monitorado quanto aos parâmetros de efetividade e segurança, além da conveniência para o paciente. Ademais, deve ser questionado a periodicidade e motivo de uso das medicações de venda livre, quando for um hábito comum.
+
+Interprete a linguagem não verbal
+Às vezes, o paciente está relatando algum sintoma, mas seus gestos contradizem a informação passada. A linguagem não verbal é aquela que é interpretada por meio de gestos e atitudes.
+
+Pacientes que cruzam os braços na frente do profissional, mexem as pernas demasiadamente ou não olham diretamente para as pessoas podem estar apresentando comportamentos de negação diante das informações, ansiedade e omissão de fatos importantes.
+
+Converse com o paciente sobre o diagnóstico
+Após a investigação das queixas do paciente, reflexão sobre as informações obtidas na consulta e descritas no prontuário médico, é preciso que o profissional esclareça ao paciente sobre a possibilidade de estabelecer um diagnóstico naquele momento ou necessitar de mais exames.
+
+No primeiro caso, o profissional deve orientar o paciente sobre as medidas farmacológicas e não medicamentosas aplicadas ao caso e sensibilizá-lo sobre a importância da adesão às recomendações clínicas.
+
+No segundo caso, é fundamental fazer o encaminhamento do paciente para a realização de exames complementares para ter certeza da suspeita diagnóstica. E, após a obtenção dos resultados laboratoriais, retornar ao médico para iniciar o tratamento.
+
+A anamnese médica é a etapa crucial para entender as queixas dos pacientes, levantar as principais causas e fatores interferentes e, assim, determinar o diagnóstico. Ademais, os passos para fazer uma anamnese completa e sem margem de dúvidas para outros problemas perpassam pela obtenção da história clínica e medicamentosa relevante ao caso, análise da linguagem não verbal e conversa franca com o paciente.</string>
+                                <color key="textColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="qfK-Ti-SSb" firstAttribute="bottom" secondItem="oMp-Da-I9d" secondAttribute="bottom" id="8N2-Z1-v4P"/>
+                            <constraint firstItem="zP2-Cg-7uU" firstAttribute="top" secondItem="qfK-Ti-SSb" secondAttribute="top" constant="25" id="ORy-Sc-80m"/>
+                            <constraint firstItem="oMp-Da-I9d" firstAttribute="leading" secondItem="qfK-Ti-SSb" secondAttribute="leading" constant="20" id="TeZ-hi-Dx1"/>
+                            <constraint firstItem="xdf-eT-x18" firstAttribute="top" secondItem="qfK-Ti-SSb" secondAttribute="top" constant="20" id="XmH-W5-bn4"/>
+                            <constraint firstItem="qfK-Ti-SSb" firstAttribute="trailing" secondItem="zP2-Cg-7uU" secondAttribute="trailing" constant="20" id="hI9-uy-MFr"/>
+                            <constraint firstItem="zP2-Cg-7uU" firstAttribute="leading" secondItem="xdf-eT-x18" secondAttribute="trailing" constant="10" id="kuQ-oY-a1I"/>
+                            <constraint firstItem="qfK-Ti-SSb" firstAttribute="trailing" secondItem="oMp-Da-I9d" secondAttribute="trailing" constant="20" id="pV5-Qk-LUR"/>
+                            <constraint firstItem="oMp-Da-I9d" firstAttribute="top" secondItem="xdf-eT-x18" secondAttribute="bottom" constant="5" id="uSh-cP-slu"/>
+                            <constraint firstItem="xdf-eT-x18" firstAttribute="leading" secondItem="qfK-Ti-SSb" secondAttribute="leading" constant="20" id="zq2-uc-JP9"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="qfK-Ti-SSb"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="QpK-pJ-5rg"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="bUP-Zv-Tvf" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <exit id="oVp-sz-eM7" userLabel="Exit" sceneMemberID="exit"/>
+            </objects>
+            <point key="canvasLocation" x="1893" y="2905"/>
+        </scene>
+        <!--Family History View Controller-->
+        <scene sceneID="RG8-5F-MfC">
+            <objects>
+                <viewController storyboardIdentifier="FamilyHistoryViewController" id="CWw-O4-4ha" customClass="FamilyHistoryViewController" customModule="HelpYourHealth" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="1oa-FC-dhm">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="z2N-r5-0Sk">
+                                <rect key="frame" x="0.0" y="108" width="40" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="z2N-r5-0Sk" secondAttribute="height" multiplier="1:1" id="suJ-en-s9d"/>
+                                    <constraint firstAttribute="width" constant="40" id="v0V-1P-9Jk"/>
+                                </constraints>
+                                <color key="tintColor" systemColor="systemPinkColor" red="1" green="0.1764705882" blue="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" image="chevron.left" catalog="system"/>
+                                <connections>
+                                    <action selector="backButtonAction" destination="CWw-O4-4ha" eventType="touchUpInside" id="CDx-Ww-s3z"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Antecedentes Familiares" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XHC-eH-Yn7">
+                                <rect key="frame" x="45" y="108" width="309" height="72"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="30"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Todo o historial de doenças ou condições que tenham afetado os parentes por consanguinidade do paciente." textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Nxr-pA-R2l">
+                                <rect key="frame" x="20" y="185" width="374" height="54"/>
+                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="15"/>
+                                <color key="textColor" systemColor="secondaryLabelColor" red="0.23529411759999999" green="0.23529411759999999" blue="0.26274509800000001" alpha="0.59999999999999998" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ew6-tC-PqM">
+                                <rect key="frame" x="364" y="113" width="30" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="Dhr-BE-wC5"/>
+                                    <constraint firstAttribute="width" constant="30" id="yae-4b-nRf"/>
+                                </constraints>
+                                <color key="tintColor" systemColor="systemPinkColor" red="1" green="0.1764705882" blue="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" image="ellipsis.circle.fill" catalog="system">
+                                    <preferredSymbolConfiguration key="preferredSymbolConfiguration" scale="large" weight="bold"/>
+                                </state>
+                                <connections>
+                                    <segue destination="Jro-ci-NmU" kind="show" id="fmp-7o-uSm"/>
+                                </connections>
+                            </button>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" allowsSelection="NO" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="I47-kh-h73">
+                                <rect key="frame" x="0.0" y="318" width="414" height="495"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="AnamnesisTableViewCell" rowHeight="165" id="LHG-4Z-r7Z" customClass="AnamnesisTableViewCell" customModule="HelpYourHealth" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="28" width="414" height="165"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="LHG-4Z-r7Z" id="tU0-sd-Lz8">
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="165"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="M7h-aK-KcQ">
+                                                    <rect key="frame" x="20" y="11" width="314" height="31"/>
+                                                    <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="Kc3-MK-eyb">
+                                                    <rect key="frame" x="344" y="67" width="52" height="31"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="width" constant="50" id="t9J-Jr-bow"/>
+                                                    </constraints>
+                                                </switch>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="g6s-b0-awS">
+                                                    <rect key="frame" x="20" y="45" width="314" height="20.5"/>
+                                                    <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="17"/>
+                                                    <color key="textColor" systemColor="secondaryLabelColor" red="0.23529411759999999" green="0.23529411759999999" blue="0.26274509800000001" alpha="0.59999999999999998" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstItem="g6s-b0-awS" firstAttribute="top" secondItem="M7h-aK-KcQ" secondAttribute="bottom" constant="3" id="2Q1-cF-neu"/>
+                                                <constraint firstItem="Kc3-MK-eyb" firstAttribute="leading" secondItem="g6s-b0-awS" secondAttribute="trailing" constant="10" id="E6K-ou-AY5"/>
+                                                <constraint firstItem="M7h-aK-KcQ" firstAttribute="leading" secondItem="tU0-sd-Lz8" secondAttribute="leadingMargin" id="FF7-ba-Isy"/>
+                                                <constraint firstItem="Kc3-MK-eyb" firstAttribute="leading" secondItem="M7h-aK-KcQ" secondAttribute="trailing" constant="10" id="Fqe-Gq-U5O"/>
+                                                <constraint firstItem="Kc3-MK-eyb" firstAttribute="centerY" secondItem="tU0-sd-Lz8" secondAttribute="centerY" id="Jt3-qu-jQC"/>
+                                                <constraint firstAttribute="bottomMargin" relation="greaterThanOrEqual" secondItem="g6s-b0-awS" secondAttribute="bottom" id="dAr-Yb-Qbc"/>
+                                                <constraint firstItem="M7h-aK-KcQ" firstAttribute="height" relation="greaterThanOrEqual" secondItem="Kc3-MK-eyb" secondAttribute="height" id="dPs-1y-jYZ"/>
+                                                <constraint firstItem="M7h-aK-KcQ" firstAttribute="top" secondItem="tU0-sd-Lz8" secondAttribute="topMargin" id="j1Y-Ku-TGz"/>
+                                                <constraint firstItem="g6s-b0-awS" firstAttribute="leading" secondItem="tU0-sd-Lz8" secondAttribute="leadingMargin" id="uNP-5m-Sc2"/>
+                                                <constraint firstAttribute="trailingMargin" secondItem="Kc3-MK-eyb" secondAttribute="trailing" id="z9A-r8-nSd"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <outlet property="descriptionLabel" destination="g6s-b0-awS" id="pba-RC-ak5"/>
+                                            <outlet property="isYes" destination="Kc3-MK-eyb" id="6Og-9D-Elc"/>
+                                            <outlet property="nameLabel" destination="M7h-aK-KcQ" id="oG7-vY-gtX"/>
+                                        </connections>
+                                    </tableViewCell>
+                                </prototypes>
+                                <connections>
+                                    <outlet property="dataSource" destination="CWw-O4-4ha" id="Mf4-d9-kdN"/>
+                                    <outlet property="delegate" destination="CWw-O4-4ha" id="cn4-zi-pkU"/>
+                                </connections>
+                            </tableView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Seus familiares diretos (pai, mãe, irmãos e avós), mesmo os já falecidos, têm ou tiveram alguma  das doenças abaixo ?" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="arP-N0-aKS">
+                                <rect key="frame" x="20" y="254" width="374" height="54"/>
+                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="15"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="P0m-e2-oFr" firstAttribute="trailing" secondItem="Nxr-pA-R2l" secondAttribute="trailing" constant="20" id="4Yc-Ah-H3g"/>
+                            <constraint firstItem="arP-N0-aKS" firstAttribute="top" secondItem="Nxr-pA-R2l" secondAttribute="bottom" constant="15" id="8z5-Jr-Wak"/>
+                            <constraint firstItem="ew6-tC-PqM" firstAttribute="leading" secondItem="XHC-eH-Yn7" secondAttribute="trailing" constant="10" id="C2K-fN-U7D"/>
+                            <constraint firstItem="P0m-e2-oFr" firstAttribute="trailing" secondItem="I47-kh-h73" secondAttribute="trailing" id="EvC-7o-fI3"/>
+                            <constraint firstItem="P0m-e2-oFr" firstAttribute="bottom" secondItem="I47-kh-h73" secondAttribute="bottom" id="Fgo-jV-5Il"/>
+                            <constraint firstItem="XHC-eH-Yn7" firstAttribute="top" secondItem="P0m-e2-oFr" secondAttribute="top" constant="20" id="Ioe-3A-1AQ"/>
+                            <constraint firstItem="P0m-e2-oFr" firstAttribute="trailing" secondItem="ew6-tC-PqM" secondAttribute="trailing" constant="20" id="MKZ-ET-smu"/>
+                            <constraint firstItem="I47-kh-h73" firstAttribute="leading" secondItem="P0m-e2-oFr" secondAttribute="leading" id="QtZ-3r-P2v"/>
+                            <constraint firstItem="arP-N0-aKS" firstAttribute="leading" secondItem="P0m-e2-oFr" secondAttribute="leading" constant="20" id="eHN-Qg-qvs"/>
+                            <constraint firstItem="z2N-r5-0Sk" firstAttribute="leading" secondItem="P0m-e2-oFr" secondAttribute="leading" id="epm-mL-L29"/>
+                            <constraint firstItem="P0m-e2-oFr" firstAttribute="trailing" secondItem="arP-N0-aKS" secondAttribute="trailing" constant="20" id="fx3-Zm-XaG"/>
+                            <constraint firstItem="Nxr-pA-R2l" firstAttribute="leading" secondItem="P0m-e2-oFr" secondAttribute="leading" constant="20" id="gLH-4p-BVN"/>
+                            <constraint firstItem="ew6-tC-PqM" firstAttribute="centerY" secondItem="z2N-r5-0Sk" secondAttribute="centerY" id="gfN-Zc-3Hu"/>
+                            <constraint firstItem="z2N-r5-0Sk" firstAttribute="top" secondItem="P0m-e2-oFr" secondAttribute="top" constant="20" id="gis-yw-DsO"/>
+                            <constraint firstItem="XHC-eH-Yn7" firstAttribute="leading" secondItem="z2N-r5-0Sk" secondAttribute="trailing" constant="5" id="lqX-l2-3Dr"/>
+                            <constraint firstItem="I47-kh-h73" firstAttribute="top" secondItem="arP-N0-aKS" secondAttribute="bottom" constant="10" id="wOf-VD-kGP"/>
+                            <constraint firstItem="Nxr-pA-R2l" firstAttribute="top" secondItem="XHC-eH-Yn7" secondAttribute="bottom" constant="5" id="zHq-tz-whE"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="P0m-e2-oFr"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="kEx-W6-J7M"/>
+                    <connections>
+                        <outlet property="tableView" destination="I47-kh-h73" id="kkS-xA-GWN"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="rlz-eB-t98" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2662" y="2904"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="t99-U5-Q5U">
+            <objects>
+                <viewController modalPresentationStyle="pageSheet" id="Jro-ci-NmU" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="7Eg-yb-7VA">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Conhecer o histórico familiar de saúde pode ajudar a prevenir doenças" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hxK-Vb-aFF">
+                                <rect key="frame" x="20" y="108" width="334" height="90"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="25"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rqZ-rs-dy8">
+                                <rect key="frame" x="364" y="113" width="30" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="30" id="Yse-iR-0F1"/>
+                                    <constraint firstAttribute="height" constant="30" id="rjc-WV-PQC"/>
+                                </constraints>
+                                <color key="tintColor" systemColor="systemPinkColor" red="1" green="0.1764705882" blue="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" image="xmark.circle.fill" catalog="system">
+                                    <preferredSymbolConfiguration key="preferredSymbolConfiguration" scale="large" weight="bold"/>
+                                </state>
+                                <connections>
+                                    <segue destination="TD9-xz-q2j" kind="unwind" unwindAction="unwindToFamilyHistoryWithSegue:" id="jfq-4a-SMA"/>
+                                </connections>
+                            </button>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="T18-rt-c8t">
+                                <rect key="frame" x="20" y="203" width="374" height="610"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                <string key="text">Você tem um parente próximo, especialmente de primeiro grau, com alguma doença, como câncer, diabetes e problemas cardíacos? Isto significa que você tem um risco maior de desenvolvê-las. Conhecer o histórico familiar de saúde é muito importante para prevenir doenças ou diagnosticá-las precocemente, o que faz com que os tratamentos sejam mais eficazes. Então, saiba mais sobre a importância do histórico familiar e como conseguir essas informações.
+ 
+Qual é a importância de conhecer o histórico familiar?
+ 
+Um histórico médico familiar é um registro de informações de saúde de uma pessoa e dos parentes próximos dela. Ter parentes com algum problema de saúde não significa que você desenvolverá essa condição, mas as chances aumentam. Isso porque as famílias têm muitos fatores em comum, incluindo os genes e, muitas vezes, o ambiente e o estilo de vida.
+ 
+Então, conhecendo o histórico familiar, você pode procurar um médico para que ele tome algumas medidas que ajudem a diminuir o risco e até prevenir possíveis problemas de saúde. Neste sentido, o médico pode recomendar:
+ 
+Exames de rastreamentos mais frequentes - como mamografia ou colonoscopia, a partir de uma idade mais precoce para pessoas com maior risco de certos tipos de câncer;
+ 
+Exames ou testes regulares - para pessoas que tenham familiares próximos com alguma condição médica, como diabetes e problemas cardíacos;
+ 
+Mudanças de estilo de vida - como a adoção de uma alimentação mais saudável, a prática de exercício físico e a interrupção do tabagismo.
+ 
+Como descobrir o histórico familiar de problemas de saúde?
+ 
+Com quais parentes falar – os familiares mais importantes são os pais, irmãos e filhos. Em seguida, você pode conversar com avós, tios sobrinhas e meio-irmãos. Pode não ser fácil, pois é possível que alguns relutem em falar sobre doenças. Mas, é importante começar a conversa e explicar o motivo de você querer saber.
+ 
+Faça perguntas – pergunte sobre doenças crônicas e problemas de saúde. As perguntas podem ser as seguintes:
+Você tem algum problema de saúde, como doença cardíaca, diabetes, pressão alta, colesterol alto ou qualquer outra condição?
+Você teve alguma doença grave, como câncer ou acidente vascular cerebral (AVC)?
+Quantos anos você tinha quando cada uma dessas doenças e cada um desses problemas de saúde foi diagnosticado?
+ 
+Registre a informação – é importante anotar tudo que souber sobre o histórico familiar. Não tente guardar tudo na memória. Anote as informações sobre principais condições médicas, causas de morte, idade no diagnóstico da doença etc.
+ 
+Obtenha registros médicos – documentos de apoio como registros médicos e atestados de óbitos podem ajudar a completar um histórico familiar de saúde. É importante manter esta informação atualizada e compartilhá-la com um médico.
+ 
+Mesmo que você não conheça todas as informações do histórico familiar, passe para o clínico geral o que você souber. As informações sobre a história de saúde da sua família, mesmo que incompletas, podem ajudar o médico a decidir quais os exames de rastreio que você precisa e quando devem começar.</string>
+                                <color key="textColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="bIF-w1-hdU" firstAttribute="trailing" secondItem="rqZ-rs-dy8" secondAttribute="trailing" constant="20" id="1Rg-nn-tR7"/>
+                            <constraint firstItem="rqZ-rs-dy8" firstAttribute="leading" secondItem="hxK-Vb-aFF" secondAttribute="trailing" constant="10" id="42Y-AW-ewT"/>
+                            <constraint firstItem="hxK-Vb-aFF" firstAttribute="top" secondItem="bIF-w1-hdU" secondAttribute="top" constant="20" id="6XW-w8-q5d"/>
+                            <constraint firstItem="hxK-Vb-aFF" firstAttribute="leading" secondItem="bIF-w1-hdU" secondAttribute="leading" constant="20" id="Ulz-vz-U0u"/>
+                            <constraint firstItem="bIF-w1-hdU" firstAttribute="bottom" secondItem="T18-rt-c8t" secondAttribute="bottom" id="VcH-gJ-TwV"/>
+                            <constraint firstItem="bIF-w1-hdU" firstAttribute="trailing" secondItem="T18-rt-c8t" secondAttribute="trailing" constant="20" id="akR-WS-ErH"/>
+                            <constraint firstItem="rqZ-rs-dy8" firstAttribute="top" secondItem="bIF-w1-hdU" secondAttribute="top" constant="25" id="egy-8X-71q"/>
+                            <constraint firstItem="T18-rt-c8t" firstAttribute="top" secondItem="hxK-Vb-aFF" secondAttribute="bottom" constant="5" id="fyb-bz-z6b"/>
+                            <constraint firstItem="T18-rt-c8t" firstAttribute="leading" secondItem="bIF-w1-hdU" secondAttribute="leading" constant="20" id="mFH-qV-CJf"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="bIF-w1-hdU"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="883-ZI-Dqi"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="FrR-Sh-J0O" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <exit id="TD9-xz-q2j" userLabel="Exit" sceneMemberID="exit"/>
+            </objects>
+            <point key="canvasLocation" x="3438" y="2905"/>
+        </scene>
+        <!--Occupational Background View Controller-->
+        <scene sceneID="49L-yN-eLf">
+            <objects>
+                <viewController storyboardIdentifier="OccupationalBackgroundViewController" id="k5G-hQ-GtQ" customClass="OccupationalBackgroundViewController" customModule="HelpYourHealth" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Kf4-gh-oj3">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wzk-bG-cJt">
+                                <rect key="frame" x="0.0" y="108" width="40" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="40" id="gbr-k6-l0i"/>
+                                    <constraint firstAttribute="width" secondItem="wzk-bG-cJt" secondAttribute="height" multiplier="1:1" id="nwh-Tf-FQj"/>
+                                </constraints>
+                                <color key="tintColor" systemColor="systemPinkColor" red="1" green="0.1764705882" blue="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" image="chevron.left" catalog="system"/>
+                                <connections>
+                                    <action selector="backButtonAction" destination="k5G-hQ-GtQ" eventType="touchUpInside" id="ml4-S8-gKv"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Antecedentes Ocupacionais" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Zz5-se-2RI">
+                                <rect key="frame" x="45" y="108" width="349" height="72"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="30"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" allowsSelection="NO" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="2Ab-PB-mgM">
+                                <rect key="frame" x="0.0" y="195" width="414" height="618"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="AnamnesisTableViewCell" rowHeight="165" id="cPg-n1-3Ht" customClass="AnamnesisTableViewCell" customModule="HelpYourHealth" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="28" width="414" height="165"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="cPg-n1-3Ht" id="Ogs-bz-vSg">
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="165"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hWS-ch-LEn">
+                                                    <rect key="frame" x="20" y="11" width="314" height="31"/>
+                                                    <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="jMq-ja-jwt">
+                                                    <rect key="frame" x="344" y="67" width="52" height="31"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="width" constant="50" id="DVp-eW-980"/>
+                                                    </constraints>
+                                                </switch>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Q2F-JN-Ed8">
+                                                    <rect key="frame" x="20" y="45" width="314" height="0.0"/>
+                                                    <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="17"/>
+                                                    <color key="textColor" systemColor="secondaryLabelColor" red="0.23529411759999999" green="0.23529411759999999" blue="0.26274509800000001" alpha="0.59999999999999998" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstAttribute="trailingMargin" secondItem="jMq-ja-jwt" secondAttribute="trailing" id="6sP-Jw-5UZ"/>
+                                                <constraint firstItem="Q2F-JN-Ed8" firstAttribute="leading" secondItem="Ogs-bz-vSg" secondAttribute="leadingMargin" id="CkN-Jd-LLJ"/>
+                                                <constraint firstItem="hWS-ch-LEn" firstAttribute="top" secondItem="Ogs-bz-vSg" secondAttribute="topMargin" id="Ibs-NO-6Hn"/>
+                                                <constraint firstItem="Q2F-JN-Ed8" firstAttribute="top" secondItem="hWS-ch-LEn" secondAttribute="bottom" constant="3" id="aJq-AE-h1h"/>
+                                                <constraint firstItem="jMq-ja-jwt" firstAttribute="leading" secondItem="hWS-ch-LEn" secondAttribute="trailing" constant="10" id="c0C-cD-Y0s"/>
+                                                <constraint firstItem="hWS-ch-LEn" firstAttribute="leading" secondItem="Ogs-bz-vSg" secondAttribute="leadingMargin" id="e5M-tq-8XS"/>
+                                                <constraint firstItem="jMq-ja-jwt" firstAttribute="leading" secondItem="Q2F-JN-Ed8" secondAttribute="trailing" constant="10" id="eYw-ia-Mue"/>
+                                                <constraint firstItem="hWS-ch-LEn" firstAttribute="height" relation="greaterThanOrEqual" secondItem="jMq-ja-jwt" secondAttribute="height" id="gt1-Sj-PJy"/>
+                                                <constraint firstAttribute="bottomMargin" relation="greaterThanOrEqual" secondItem="Q2F-JN-Ed8" secondAttribute="bottom" id="mbj-LC-iZt"/>
+                                                <constraint firstItem="jMq-ja-jwt" firstAttribute="centerY" secondItem="Ogs-bz-vSg" secondAttribute="centerY" id="twa-Kg-S98"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <outlet property="descriptionLabel" destination="Q2F-JN-Ed8" id="qfW-Nh-ON5"/>
+                                            <outlet property="isYes" destination="jMq-ja-jwt" id="jIL-gB-1Cd"/>
+                                            <outlet property="nameLabel" destination="hWS-ch-LEn" id="nlj-ip-yA7"/>
+                                        </connections>
+                                    </tableViewCell>
+                                </prototypes>
+                                <connections>
+                                    <outlet property="dataSource" destination="k5G-hQ-GtQ" id="zRx-8J-gBy"/>
+                                    <outlet property="delegate" destination="k5G-hQ-GtQ" id="KKZ-JE-iZ6"/>
+                                </connections>
+                            </tableView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="nNS-NI-BCY" firstAttribute="trailing" secondItem="2Ab-PB-mgM" secondAttribute="trailing" id="6hq-ES-rZk"/>
+                            <constraint firstItem="2Ab-PB-mgM" firstAttribute="leading" secondItem="nNS-NI-BCY" secondAttribute="leading" id="9wq-ap-V1I"/>
+                            <constraint firstItem="nNS-NI-BCY" firstAttribute="bottom" secondItem="2Ab-PB-mgM" secondAttribute="bottom" id="D2f-k1-n1b"/>
+                            <constraint firstItem="wzk-bG-cJt" firstAttribute="top" secondItem="nNS-NI-BCY" secondAttribute="top" constant="20" id="LY0-c5-WcL"/>
+                            <constraint firstAttribute="trailing" secondItem="Zz5-se-2RI" secondAttribute="trailing" constant="20" id="P4e-oZ-uQQ"/>
+                            <constraint firstItem="Zz5-se-2RI" firstAttribute="top" secondItem="nNS-NI-BCY" secondAttribute="top" constant="20" id="SlJ-rO-zD3"/>
+                            <constraint firstItem="Zz5-se-2RI" firstAttribute="leading" secondItem="wzk-bG-cJt" secondAttribute="trailing" constant="5" id="Tuf-yc-Kxy"/>
+                            <constraint firstItem="2Ab-PB-mgM" firstAttribute="top" secondItem="Zz5-se-2RI" secondAttribute="bottom" constant="15" id="txw-6y-5nL"/>
+                            <constraint firstItem="wzk-bG-cJt" firstAttribute="leading" secondItem="nNS-NI-BCY" secondAttribute="leading" id="vun-hh-pPi"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="nNS-NI-BCY"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="T5O-r7-bHJ"/>
+                    <connections>
+                        <outlet property="tableView" destination="2Ab-PB-mgM" id="OZF-OA-2bT"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="bmg-rj-fFX" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4212" y="2905"/>
+        </scene>
+        <!--Medicines View Controller-->
+        <scene sceneID="ZPW-9b-y4V">
+            <objects>
+                <viewController storyboardIdentifier="MedicinesViewController" id="ATO-D5-7GW" customClass="MedicinesViewController" customModule="HelpYourHealth" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="HGF-77-LKv">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0oJ-Ou-Yge">
+                                <rect key="frame" x="0.0" y="108" width="40" height="36"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="40" id="2GS-fM-mNn"/>
+                                </constraints>
+                                <color key="tintColor" systemColor="systemPinkColor" red="1" green="0.1764705882" blue="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" image="chevron.left" catalog="system"/>
+                                <connections>
+                                    <action selector="backButtonAction" destination="ATO-D5-7GW" eventType="touchUpInside" id="wtN-EK-Fkr"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Medicamentos" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Bjv-4F-7FV">
+                                <rect key="frame" x="45" y="108" width="309" height="36"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="30"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RSl-9D-pTE">
+                                <rect key="frame" x="20" y="149" width="374" height="54"/>
+                                <string key="text">Aqui tanto paciente quanto médicos podem adicionar um novo tipo de medicamento que essa sem usado pelo paciente. Clicando em adicionar medicamento e preenchendo os campo solicitados ele automaticamente cria para você lembretes, para lembra-lo de tomar seus remédios na hora certa e dentro de um determinado período de tempo.</string>
+                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="15"/>
+                                <color key="textColor" systemColor="secondaryLabelColor" red="0.23529411759999999" green="0.23529411759999999" blue="0.26274509800000001" alpha="0.59999999999999998" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FiI-ja-ppS">
+                                <rect key="frame" x="364" y="111" width="30" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="30" id="6z9-8U-pKV"/>
+                                    <constraint firstAttribute="height" constant="30" id="Elg-zK-n0n"/>
+                                </constraints>
+                                <color key="tintColor" systemColor="systemPinkColor" red="1" green="0.1764705882" blue="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" image="ellipsis.circle.fill" catalog="system">
+                                    <preferredSymbolConfiguration key="preferredSymbolConfiguration" scale="large" weight="bold"/>
+                                </state>
+                                <connections>
+                                    <segue destination="OPG-UB-jUO" kind="show" id="5ma-lr-3AS"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="RSl-9D-pTE" firstAttribute="top" secondItem="Bjv-4F-7FV" secondAttribute="bottom" constant="5" id="1EF-0O-nW1"/>
+                            <constraint firstItem="R7y-gY-VBt" firstAttribute="trailing" secondItem="FiI-ja-ppS" secondAttribute="trailing" constant="20" id="CFt-Aa-CQz"/>
+                            <constraint firstItem="FiI-ja-ppS" firstAttribute="leading" secondItem="Bjv-4F-7FV" secondAttribute="trailing" constant="10" id="DxV-A6-9Az"/>
+                            <constraint firstItem="0oJ-Ou-Yge" firstAttribute="top" secondItem="R7y-gY-VBt" secondAttribute="top" constant="20" id="GKE-QB-NKR"/>
+                            <constraint firstItem="0oJ-Ou-Yge" firstAttribute="height" secondItem="Bjv-4F-7FV" secondAttribute="height" id="YCM-YC-b8m"/>
+                            <constraint firstItem="RSl-9D-pTE" firstAttribute="leading" secondItem="R7y-gY-VBt" secondAttribute="leading" constant="20" id="YgL-hc-8xK"/>
+                            <constraint firstItem="0oJ-Ou-Yge" firstAttribute="leading" secondItem="R7y-gY-VBt" secondAttribute="leading" id="Z2X-Rh-2N0"/>
+                            <constraint firstItem="Bjv-4F-7FV" firstAttribute="top" secondItem="R7y-gY-VBt" secondAttribute="top" constant="20" id="ZXZ-3u-60d"/>
+                            <constraint firstItem="R7y-gY-VBt" firstAttribute="trailing" secondItem="RSl-9D-pTE" secondAttribute="trailing" constant="20" id="fQV-zC-yf7"/>
+                            <constraint firstItem="Bjv-4F-7FV" firstAttribute="leading" secondItem="0oJ-Ou-Yge" secondAttribute="trailing" constant="5" id="oqH-Mh-hEi"/>
+                            <constraint firstItem="FiI-ja-ppS" firstAttribute="centerY" secondItem="Bjv-4F-7FV" secondAttribute="centerY" id="uw0-uB-m0I"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="R7y-gY-VBt"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="0Hi-Cz-QIH"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="xNd-cH-j76" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1893" y="2180"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="DUq-nY-ccG">
+            <objects>
+                <viewController modalPresentationStyle="pageSheet" id="OPG-UB-jUO" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="4Kp-WM-qHY">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Como nasce um remédio ?" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DJd-dE-Q0R">
+                                <rect key="frame" x="20" y="108" width="334" height="72"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="30"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ce5-L5-v2M">
+                                <rect key="frame" x="364" y="108" width="30" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="30" id="YQf-WG-FJQ"/>
+                                    <constraint firstAttribute="height" constant="30" id="wCn-DI-YhJ"/>
+                                </constraints>
+                                <color key="tintColor" systemColor="systemPinkColor" red="1" green="0.1764705882" blue="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" image="xmark.circle.fill" catalog="system">
+                                    <preferredSymbolConfiguration key="preferredSymbolConfiguration" scale="large" weight="bold"/>
+                                </state>
+                                <connections>
+                                    <segue destination="7U2-sB-boe" kind="unwind" unwindAction="unwindToHistoricWithSegue:" id="V50-G4-YWV"/>
+                                </connections>
+                            </button>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="YV7-mo-spy">
+                                <rect key="frame" x="20" y="185" width="374" height="628"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                <string key="text">Para ter ideia, de cada 10 mil substâncias testadas, só uma passa todas as barreiras necessárias para virar um medicamento. E haja esforço científico (e dinheiro) para chegar a esse tratamento novo.
+
+Quem nos ajuda a contar a biografia das medicações é Gustavo Gross Belchior, biólogo e fundador da Core US, uma empresa que presta diversos serviços de consultoria científica. Segundo ele, é o rigor atual na aprovação de uma droga que minimiza o risco de casos como o da talidomida, um medicamento antigo que, tomado por mulheres grávidas, causou mais de 10 mil casos de malformações fetais.
+
+Na companhia dos jornalistas Diogo Sponchiato e André Biernath, ele ainda falou sobre falsificação de remédio, genéricos e por aí vai. Você nunca mais vai olhar para uma farmácia do mesmo jeito!</string>
+                                <color key="textColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="OYn-Lr-6Ig" firstAttribute="trailing" secondItem="YV7-mo-spy" secondAttribute="trailing" constant="20" id="4rO-DB-w36"/>
+                            <constraint firstItem="DJd-dE-Q0R" firstAttribute="leading" secondItem="OYn-Lr-6Ig" secondAttribute="leading" constant="20" id="EII-xj-sR5"/>
+                            <constraint firstItem="OYn-Lr-6Ig" firstAttribute="trailing" secondItem="Ce5-L5-v2M" secondAttribute="trailing" constant="20" id="TYw-C4-jQr"/>
+                            <constraint firstItem="Ce5-L5-v2M" firstAttribute="leading" secondItem="DJd-dE-Q0R" secondAttribute="trailing" constant="10" id="b83-FZ-woh"/>
+                            <constraint firstItem="DJd-dE-Q0R" firstAttribute="top" secondItem="OYn-Lr-6Ig" secondAttribute="top" constant="20" id="dn2-7y-5pv"/>
+                            <constraint firstItem="YV7-mo-spy" firstAttribute="top" secondItem="DJd-dE-Q0R" secondAttribute="bottom" constant="5" id="iqZ-M6-jw8"/>
+                            <constraint firstItem="OYn-Lr-6Ig" firstAttribute="bottom" secondItem="YV7-mo-spy" secondAttribute="bottom" id="tfu-sK-wXl"/>
+                            <constraint firstItem="Ce5-L5-v2M" firstAttribute="top" secondItem="OYn-Lr-6Ig" secondAttribute="top" constant="20" id="zhz-LJ-NKS"/>
+                            <constraint firstItem="YV7-mo-spy" firstAttribute="leading" secondItem="OYn-Lr-6Ig" secondAttribute="leading" constant="20" id="zlO-Mh-b1N"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="OYn-Lr-6Ig"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="muu-3w-aIj"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="6M8-tQ-Hiz" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <exit id="7U2-sB-boe" userLabel="Exit" sceneMemberID="exit"/>
+            </objects>
+            <point key="canvasLocation" x="2664" y="2180"/>
+        </scene>
     </scenes>
     <resources>
         <image name="Background" width="900" height="644"/>
@@ -2714,8 +3454,10 @@ Ao ter um médico que centraliza as informações, da mesma forma que acontece n
         <image name="chevron.left" catalog="system" width="46" height="64"/>
         <image name="ellipsis.circle.fill" catalog="system" width="64" height="62"/>
         <image name="envelope.fill" catalog="system" width="64" height="46"/>
+        <image name="globe" catalog="system" width="64" height="62"/>
         <image name="hammer.fill" catalog="system" width="64" height="56"/>
         <image name="keyboard.chevron.compact.down" catalog="system" width="64" height="46"/>
+        <image name="logo.pink" width="506" height="498"/>
         <image name="mappin.and.ellipse" catalog="system" width="62" height="64"/>
         <image name="medical.record" width="748" height="1000"/>
         <image name="murilo.arelhano" width="640" height="640"/>

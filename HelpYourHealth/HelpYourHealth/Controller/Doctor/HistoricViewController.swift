@@ -82,5 +82,8 @@ extension HistoricViewController: UICollectionViewDelegate, UICollectionViewData
     func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
         
         if indexPath.row == 0 { DispatchQueue.main.async { self.performSegue(withIdentifier: "PersonalDataViewController", sender: self) } }
+        if indexPath.row == 1 { DispatchQueue.main.async { self.performSegue(withIdentifier: "AnamnesisViewController", sender: self) } }
+        if indexPath.row == 2 { DispatchQueue.main.async { self.performSegue(withIdentifier: "FamilyHistoryViewController", sender: self) } }
+        if indexPath.row == 3 { DispatchQueue.main.async { self.performSegue(withIdentifier: "OccupationalBackgroundViewController", sender: self) } }
     }
 }

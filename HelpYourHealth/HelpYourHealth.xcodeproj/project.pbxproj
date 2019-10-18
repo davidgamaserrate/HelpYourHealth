@@ -9,8 +9,11 @@
 /* Begin PBXBuildFile section */
 		2F85708F7B487784265C28A5 /* Pods_HelpYourHealth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A9A77BCCA42B12064589363 /* Pods_HelpYourHealth.framework */; };
 		4C4C543D234AB4AB00642B59 /* HistoricViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C4C543C234AB4AB00642B59 /* HistoricViewController.swift */; };
+		4C67446E234DB4B600CE9F68 /* OccupationalBackgroundViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C67446D234DB4B600CE9F68 /* OccupationalBackgroundViewController.swift */; };
+		4C674470234DD49F00CE9F68 /* MedicinesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C67446F234DD49F00CE9F68 /* MedicinesViewController.swift */; };
 		4C6FC1BF234B67FD00D8C3B1 /* PersonalDataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C6FC1BE234B67FD00D8C3B1 /* PersonalDataViewController.swift */; };
 		4C6FC1C2234B787F00D8C3B1 /* BasicInformationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C6FC1C1234B787F00D8C3B1 /* BasicInformationViewController.swift */; };
+		4C94C11B234D947500FD5618 /* FamilyHistoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C94C11A234D947500FD5618 /* FamilyHistoryViewController.swift */; };
 		4CB7A6CD2336FDF900BB66F1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CB7A6CC2336FDF900BB66F1 /* AppDelegate.swift */; };
 		4CB7A6CF2336FDF900BB66F1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CB7A6CE2336FDF900BB66F1 /* SceneDelegate.swift */; };
 		4CB7A6D42336FDF900BB66F1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4CB7A6D22336FDF900BB66F1 /* Main.storyboard */; };
@@ -20,6 +23,8 @@
 		4CB7C1B3234795DF006656D4 /* MyPatientViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CB7C1B2234795DF006656D4 /* MyPatientViewController.swift */; };
 		4CB7C1B52347A9A6006656D4 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CB7C1B42347A9A6006656D4 /* ProfileViewController.swift */; };
 		4CB7C1B82347A9DC006656D4 /* UIViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CB7C1B72347A9DC006656D4 /* UIViewExtension.swift */; };
+		4CBEC23F234D6E8700F180AB /* ScheduleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CBEC23E234D6E8700F180AB /* ScheduleViewController.swift */; };
+		4CBEC242234D724400F180AB /* AnamnesisViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CBEC241234D724400F180AB /* AnamnesisViewController.swift */; };
 		4CF36AA3234BA44D000A5751 /* ContactViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CF36AA2234BA44D000A5751 /* ContactViewController.swift */; };
 		4CF36AA5234BAC9D000A5751 /* SupplementaryDataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CF36AA4234BAC9D000A5751 /* SupplementaryDataViewController.swift */; };
 		4CF36AA7234BB3EF000A5751 /* AddressViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CF36AA6234BB3EF000A5751 /* AddressViewController.swift */; };
@@ -29,8 +34,11 @@
 
 /* Begin PBXFileReference section */
 		4C4C543C234AB4AB00642B59 /* HistoricViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoricViewController.swift; sourceTree = "<group>"; };
+		4C67446D234DB4B600CE9F68 /* OccupationalBackgroundViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OccupationalBackgroundViewController.swift; sourceTree = "<group>"; };
+		4C67446F234DD49F00CE9F68 /* MedicinesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MedicinesViewController.swift; sourceTree = "<group>"; };
 		4C6FC1BE234B67FD00D8C3B1 /* PersonalDataViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonalDataViewController.swift; sourceTree = "<group>"; };
 		4C6FC1C1234B787F00D8C3B1 /* BasicInformationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicInformationViewController.swift; sourceTree = "<group>"; };
+		4C94C11A234D947500FD5618 /* FamilyHistoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FamilyHistoryViewController.swift; sourceTree = "<group>"; };
 		4CB7A6C92336FDF900BB66F1 /* HelpYourHealth.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelpYourHealth.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4CB7A6CC2336FDF900BB66F1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4CB7A6CE2336FDF900BB66F1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -42,6 +50,8 @@
 		4CB7C1B2234795DF006656D4 /* MyPatientViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyPatientViewController.swift; sourceTree = "<group>"; };
 		4CB7C1B42347A9A6006656D4 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		4CB7C1B72347A9DC006656D4 /* UIViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewExtension.swift; sourceTree = "<group>"; };
+		4CBEC23E234D6E8700F180AB /* ScheduleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleViewController.swift; sourceTree = "<group>"; };
+		4CBEC241234D724400F180AB /* AnamnesisViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnamnesisViewController.swift; sourceTree = "<group>"; };
 		4CF36AA2234BA44D000A5751 /* ContactViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactViewController.swift; sourceTree = "<group>"; };
 		4CF36AA4234BAC9D000A5751 /* SupplementaryDataViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SupplementaryDataViewController.swift; sourceTree = "<group>"; };
 		4CF36AA6234BB3EF000A5751 /* AddressViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddressViewController.swift; sourceTree = "<group>"; };
@@ -76,6 +86,9 @@
 		4C6FC1BD234B67E400D8C3B1 /* Historic */ = {
 			isa = PBXGroup;
 			children = (
+				4CBEC241234D724400F180AB /* AnamnesisViewController.swift */,
+				4C94C11A234D947500FD5618 /* FamilyHistoryViewController.swift */,
+				4C67446D234DB4B600CE9F68 /* OccupationalBackgroundViewController.swift */,
 				4C6FC1BE234B67FD00D8C3B1 /* PersonalDataViewController.swift */,
 				4C6FC1C0234B785500D8C3B1 /* Personal Data */,
 			);
@@ -135,6 +148,7 @@
 				4CB7C1B42347A9A6006656D4 /* ProfileViewController.swift */,
 				4CFC33E32347DCFE0047AA4D /* PatientAreaViewController.swift */,
 				4C4C543C234AB4AB00642B59 /* HistoricViewController.swift */,
+				4C67446F234DD49F00CE9F68 /* MedicinesViewController.swift */,
 			);
 			path = Doctor;
 			sourceTree = "<group>";
@@ -154,9 +168,18 @@
 			path = Extension;
 			sourceTree = "<group>";
 		};
+		4CBEC23D234D6E6200F180AB /* Schecule */ = {
+			isa = PBXGroup;
+			children = (
+				4CBEC23E234D6E8700F180AB /* ScheduleViewController.swift */,
+			);
+			path = Schecule;
+			sourceTree = "<group>";
+		};
 		4CFDE38C23371D130011C258 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				4CBEC23D234D6E6200F180AB /* Schecule */,
 				4CB7C1B1234795BA006656D4 /* Patient */,
 				4CB7C1B023479597006656D4 /* Doctor */,
 			);
@@ -310,13 +333,18 @@
 				4CB7C1B82347A9DC006656D4 /* UIViewExtension.swift in Sources */,
 				4CFC33E42347DCFE0047AA4D /* PatientAreaViewController.swift in Sources */,
 				4CF36AA7234BB3EF000A5751 /* AddressViewController.swift in Sources */,
+				4CBEC242234D724400F180AB /* AnamnesisViewController.swift in Sources */,
 				4CB7C1B3234795DF006656D4 /* MyPatientViewController.swift in Sources */,
+				4CBEC23F234D6E8700F180AB /* ScheduleViewController.swift in Sources */,
 				4CF36AA5234BAC9D000A5751 /* SupplementaryDataViewController.swift in Sources */,
 				4CB7A6CD2336FDF900BB66F1 /* AppDelegate.swift in Sources */,
 				4C6FC1C2234B787F00D8C3B1 /* BasicInformationViewController.swift in Sources */,
+				4C67446E234DB4B600CE9F68 /* OccupationalBackgroundViewController.swift in Sources */,
 				4CB7C1B52347A9A6006656D4 /* ProfileViewController.swift in Sources */,
 				4CB7A6CF2336FDF900BB66F1 /* SceneDelegate.swift in Sources */,
 				4C4C543D234AB4AB00642B59 /* HistoricViewController.swift in Sources */,
+				4C674470234DD49F00CE9F68 /* MedicinesViewController.swift in Sources */,
+				4C94C11B234D947500FD5618 /* FamilyHistoryViewController.swift in Sources */,
 				4CF36AA9234BBA9A000A5751 /* DependenciesViewController.swift in Sources */,
 				4CF36AA3234BA44D000A5751 /* ContactViewController.swift in Sources */,
 			);
